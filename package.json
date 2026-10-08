@@ -1,0 +1,14 @@
+{
+  "name": "quizquest",
+  "version": "1.0.0",
+  "description": "Cartoon learning game for UT-2 question banks - understand concepts, write answers in your own words.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

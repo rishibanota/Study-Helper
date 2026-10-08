@@ -1,0 +1,3733 @@
+[
+  {
+    "id": "wmc/wmc-q1/analogy",
+    "text": "Think of shouting. LOS is shouting to someone across a wide open field - they hear you straight away. NLOS is shouting from inside a locked room - the sound has to bounce off the walls and the door before it reaches them.",
+    "subjectId": "wmc",
+    "qId": "wmc-q1",
+    "clip": "analogy"
+  },
+  {
+    "id": "wmc/wmc-q1/definition",
+    "text": "LOS means the radio signal flies straight from the tower to your phone with nothing in the way. NLOS means something is blocking that straight path, so the signal has to bend around obstacles by reflecting, diffracting or scattering.",
+    "subjectId": "wmc",
+    "qId": "wmc-q1",
+    "clip": "definition"
+  },
+  {
+    "id": "wmc/wmc-q1/question",
+    "text": "Differentiate between LOS and NLOS propagation.",
+    "subjectId": "wmc",
+    "qId": "wmc-q1",
+    "clip": "question"
+  },
+  {
+    "id": "wmc/wmc-q1/mnemonic",
+    "text": "Loose Notes Often Forget; Students Aim For Depth, Understanding Everything",
+    "subjectId": "wmc",
+    "qId": "wmc-q1",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "wmc/wmc-q1/idea_los",
+    "text": "LOS. Line-of-Sight. The signal takes one clean straight path from the transmitter to the receiver.",
+    "subjectId": "wmc",
+    "qId": "wmc-q1",
+    "clip": "idea_los"
+  },
+  {
+    "id": "wmc/wmc-q1/idea_nlos",
+    "text": "NLOS. Non-Line-of-Sight. The straight path is blocked, so the signal only arrives after bouncing off things.",
+    "subjectId": "wmc",
+    "qId": "wmc-q1",
+    "clip": "idea_nlos"
+  },
+  {
+    "id": "wmc/wmc-q1/idea_obstacles",
+    "text": "Obstacles. LOS needs an open route. NLOS has buildings, hills or trees sitting in between the two antennas.",
+    "subjectId": "wmc",
+    "qId": "wmc-q1",
+    "clip": "idea_obstacles"
+  },
+  {
+    "id": "wmc/wmc-q1/idea_fresnel",
+    "text": "Fresnel zone. LOS needs this open tunnel of space to stay clear. If it gets blocked the link is no longer truly line-of-sight.",
+    "subjectId": "wmc",
+    "qId": "wmc-q1",
+    "clip": "idea_fresnel"
+  },
+  {
+    "id": "wmc/wmc-q1/idea_strength",
+    "text": "Signal strength. LOS gives a strong, steady signal. NLOS is weaker and keeps going up and down.",
+    "subjectId": "wmc",
+    "qId": "wmc-q1",
+    "clip": "idea_strength"
+  },
+  {
+    "id": "wmc/wmc-q1/idea_attenuation",
+    "text": "Attenuation. LOS only loses power to free space spreading. NLOS loses extra power to shadowing and clutter.",
+    "subjectId": "wmc",
+    "qId": "wmc-q1",
+    "clip": "idea_attenuation"
+  },
+  {
+    "id": "wmc/wmc-q1/idea_fading-dist",
+    "text": "Rician vs Rayleigh. LOS with one dominant ray follows Rician fading. NLOS with no dominant ray follows Rayleigh fading.",
+    "subjectId": "wmc",
+    "qId": "wmc-q1",
+    "clip": "idea_fading-dist"
+  },
+  {
+    "id": "wmc/wmc-q1/idea_delay",
+    "text": "Delay spread. NLOS rays travel different distances, so they arrive at different times. That creates delay spread and interference between symbols.",
+    "subjectId": "wmc",
+    "qId": "wmc-q1",
+    "clip": "idea_delay"
+  },
+  {
+    "id": "wmc/wmc-q1/idea_use",
+    "text": "Where each is used. LOS suits dish-to-dish microwave, satellite and mmWave links. NLOS suits everyday sub-6 GHz city mobile links.",
+    "subjectId": "wmc",
+    "qId": "wmc-q1",
+    "clip": "idea_use"
+  },
+  {
+    "id": "wmc/wmc-q1/idea_example",
+    "text": "Real example. LOS example: a dish antenna link between two buildings. NLOS example: a phone used indoors in a busy city.",
+    "subjectId": "wmc",
+    "qId": "wmc-q1",
+    "clip": "idea_example"
+  },
+  {
+    "id": "wmc/wmc-q2/analogy",
+    "text": "Think of a torch. Path loss is the torch getting dimmer the further you walk - that always happens, no matter what. Shadowing is walking behind a big wall - the brightness suddenly drops in a new spot because that wall is in the way.",
+    "subjectId": "wmc",
+    "qId": "wmc-q2",
+    "clip": "analogy"
+  },
+  {
+    "id": "wmc/wmc-q2/definition",
+    "text": "Path loss is the steady drop in average signal power as you move further away. Shadowing is the slow random wiggle around that average caused by big objects blocking the signal.",
+    "subjectId": "wmc",
+    "qId": "wmc-q2",
+    "clip": "definition"
+  },
+  {
+    "id": "wmc/wmc-q2/question",
+    "text": "Explain path loss and shadowing in wireless communication. What are their causes and effects?",
+    "subjectId": "wmc",
+    "qId": "wmc-q2",
+    "clip": "question"
+  },
+  {
+    "id": "wmc/wmc-q2/mnemonic",
+    "text": "Path Changes Every Mile; Even Small Corners Make Extra Trouble",
+    "subjectId": "wmc",
+    "qId": "wmc-q2",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "wmc/wmc-q2/idea_pathloss",
+    "text": "Path loss. Average received power falls as distance grows. It is written as Pr proportional to 1 over d to the power n.",
+    "subjectId": "wmc",
+    "qId": "wmc-q2",
+    "clip": "idea_pathloss"
+  },
+  {
+    "id": "wmc/wmc-q2/idea_causes",
+    "text": "Causes of path loss. The radio wave spreads out, gets absorbed by air and walls, and bounces off the ground. All three eat signal power.",
+    "subjectId": "wmc",
+    "qId": "wmc-q2",
+    "clip": "idea_causes"
+  },
+  {
+    "id": "wmc/wmc-q2/idea_exponent",
+    "text": "Path loss exponent n. n is 2 in free space but goes up to 2 to 6 in cities and indoors. Bigger n means the signal dies faster.",
+    "subjectId": "wmc",
+    "qId": "wmc-q2",
+    "clip": "idea_exponent"
+  },
+  {
+    "id": "wmc/wmc-q2/idea_models",
+    "text": "Models. Friis free-space, log-distance, Okumura-Hata and COST-231 are the standard formulas used to calculate path loss.",
+    "subjectId": "wmc",
+    "qId": "wmc-q2",
+    "clip": "idea_models"
+  },
+  {
+    "id": "wmc/wmc-q2/idea_effect1",
+    "text": "Effect on cell size. Path loss decides how big a cell can be, how much transmit power is needed, and the whole link budget.",
+    "subjectId": "wmc",
+    "qId": "wmc-q2",
+    "clip": "idea_effect1"
+  },
+  {
+    "id": "wmc/wmc-q2/idea_shadowing",
+    "text": "Shadowing. Slow random variation around the path loss average, happening when large objects like buildings or hills block the ray.",
+    "subjectId": "wmc",
+    "qId": "wmc-q2",
+    "clip": "idea_shadowing"
+  },
+  {
+    "id": "wmc/wmc-q2/idea_cause-shadow",
+    "text": "Cause of shadowing. Buildings, hills and terrain block the direct ray, which adds both obstruction and diffraction loss.",
+    "subjectId": "wmc",
+    "qId": "wmc-q2",
+    "clip": "idea_cause-shadow"
+  },
+  {
+    "id": "wmc/wmc-q2/idea_model-shadow",
+    "text": "Log-normal distribution. Shadowing follows a log-normal shape, which is a bell curve in dB units. Sigma is usually 4 to 12 dB.",
+    "subjectId": "wmc",
+    "qId": "wmc-q2",
+    "clip": "idea_model-shadow"
+  },
+  {
+    "id": "wmc/wmc-q2/idea_effect2",
+    "text": "Effect of shadowing. Two spots the same distance apart can get totally different power. This creates coverage holes and dropped calls.",
+    "subjectId": "wmc",
+    "qId": "wmc-q2",
+    "clip": "idea_effect2"
+  },
+  {
+    "id": "wmc/wmc-q2/idea_together",
+    "text": "Large-scale fading. Path loss and shadowing together are called large-scale fading. We handle them with fade margin, power control and cell planning.",
+    "subjectId": "wmc",
+    "qId": "wmc-q2",
+    "clip": "idea_together"
+  },
+  {
+    "id": "wmc/wmc-q3/analogy",
+    "text": "Think of an echo. Shout in an empty hall and you hear your echo a moment later. Your phone hears the same thing - several copies of one signal arriving at slightly different times, and they add up or cancel out.",
+    "subjectId": "wmc",
+    "qId": "wmc-q3",
+    "clip": "analogy"
+  },
+  {
+    "id": "wmc/wmc-q3/definition",
+    "text": "Multipath means the same signal reaches the receiver by several routes of different lengths. Because these delayed copies interfere with each other, the received signal rises and falls quickly. That fast wobble is called fading.",
+    "subjectId": "wmc",
+    "qId": "wmc-q3",
+    "clip": "definition"
+  },
+  {
+    "id": "wmc/wmc-q3/question",
+    "text": "Explain multipath propagation and fading.",
+    "subjectId": "wmc",
+    "qId": "wmc-q3",
+    "clip": "question"
+  },
+  {
+    "id": "wmc/wmc-q3/mnemonic",
+    "text": "Many Mirrors Signal Fading, Copies Compete, Fast Fluctuations Ruin, Mitigate",
+    "subjectId": "wmc",
+    "qId": "wmc-q3",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "wmc/wmc-q3/idea_multipath",
+    "text": "Multipath. Many copies of one signal reach the receiver by different routes with different delays.",
+    "subjectId": "wmc",
+    "qId": "wmc-q3",
+    "clip": "idea_multipath"
+  },
+  {
+    "id": "wmc/wmc-q3/idea_mechanisms",
+    "text": "Reflection, diffraction, scattering. Big smooth surfaces reflect, sharp edges diffract, and small rough objects scatter the wave.",
+    "subjectId": "wmc",
+    "qId": "wmc-q3",
+    "clip": "idea_mechanisms"
+  },
+  {
+    "id": "wmc/wmc-q3/idea_superposition",
+    "text": "Superposition. The copies add up or cancel out depending on their relative phase. That is why the signal sometimes gets stronger and sometimes vanishes.",
+    "subjectId": "wmc",
+    "qId": "wmc-q3",
+    "clip": "idea_superposition"
+  },
+  {
+    "id": "wmc/wmc-q3/idea_fading",
+    "text": "Fading. The fast up-and-down change in signal amplitude over a very short time or distance.",
+    "subjectId": "wmc",
+    "qId": "wmc-q3",
+    "clip": "idea_fading"
+  },
+  {
+    "id": "wmc/wmc-q3/idea_cause",
+    "text": "Doppler shift. When you or nearby objects move, every path gets a Doppler shift, and that shift is what makes the signal fade as you walk.",
+    "subjectId": "wmc",
+    "qId": "wmc-q3",
+    "clip": "idea_cause"
+  },
+  {
+    "id": "wmc/wmc-q3/idea_types-bw",
+    "text": "Flat vs frequency-selective. By bandwidth, fading is flat when the signal changes equally at all frequencies, or frequency-selective when it changes unevenly. Delay spread decides which.",
+    "subjectId": "wmc",
+    "qId": "wmc-q3",
+    "clip": "idea_types-bw"
+  },
+  {
+    "id": "wmc/wmc-q3/idea_types-time",
+    "text": "Fast vs slow. By time, fading is fast or slow. Doppler spread and coherence time decide which one.",
+    "subjectId": "wmc",
+    "qId": "wmc-q3",
+    "clip": "idea_types-time"
+  },
+  {
+    "id": "wmc/wmc-q3/idea_dist",
+    "text": "Rayleigh vs Rician. Rayleigh models fading when there is no dominant path. Rician models it when one strong line-of-sight ray exists.",
+    "subjectId": "wmc",
+    "qId": "wmc-q3",
+    "clip": "idea_dist"
+  },
+  {
+    "id": "wmc/wmc-q3/idea_effects",
+    "text": "Effects of fading. Fading causes intersymbol interference, deep signal drops, high bit error rates and dropped calls.",
+    "subjectId": "wmc",
+    "qId": "wmc-q3",
+    "clip": "idea_effects"
+  },
+  {
+    "id": "wmc/wmc-q3/idea_mitigation",
+    "text": "Mitigation. We fight fading with diversity, equalizers, OFDM, channel coding and MIMO.",
+    "subjectId": "wmc",
+    "qId": "wmc-q3",
+    "clip": "idea_mitigation"
+  },
+  {
+    "id": "wmc/wmc-q4/analogy",
+    "text": "Think of two people talking. Co-channel interference is someone on the exact same radio channel talking over you - you both use the identical frequency. Adjacent channel interference is a neighbour on the very next channel whose voice bleeds into yours.",
+    "subjectId": "wmc",
+    "qId": "wmc-q4",
+    "clip": "analogy"
+  },
+  {
+    "id": "wmc/wmc-q4/definition",
+    "text": "Co-channel interference happens when two or more transmissions use the exact same frequency. Adjacent channel interference happens when a transmission on a nearby frequency spills over into our channel and spoils it.",
+    "subjectId": "wmc",
+    "qId": "wmc-q4",
+    "clip": "definition"
+  },
+  {
+    "id": "wmc/wmc-q4/question",
+    "text": "Compare co-channel interference vs adjacent channel interference.",
+    "subjectId": "wmc",
+    "qId": "wmc-q4",
+    "clip": "question"
+  },
+  {
+    "id": "wmc/wmc-q4/mnemonic",
+    "text": "Clashing And Conflicting Cause Channels, Mitigation Ends Errors, Signals Stronger",
+    "subjectId": "wmc",
+    "qId": "wmc-q4",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "wmc/wmc-q4/idea_co",
+    "text": "Co-channel interference. Two or more users are tuned to the same exact frequency, so they disturb each other.",
+    "subjectId": "wmc",
+    "qId": "wmc-q4",
+    "clip": "idea_co"
+  },
+  {
+    "id": "wmc/wmc-q4/idea_adj",
+    "text": "Adjacent channel interference. A neighbour on the next frequency sends a signal that is too strong and leaks into our channel.",
+    "subjectId": "wmc",
+    "qId": "wmc-q4",
+    "clip": "idea_adj"
+  },
+  {
+    "id": "wmc/wmc-q4/idea_cause-co",
+    "text": "Cause of co-channel. Cell reuse is the main cause. The same frequency is deliberately given to far-apart cells, so reuse plus high traffic causes overlap.",
+    "subjectId": "wmc",
+    "qId": "wmc-q4",
+    "clip": "idea_cause-co"
+  },
+  {
+    "id": "wmc/wmc-q4/idea_cause-adj",
+    "text": "Cause of adjacent. Causes are channel spacing too tight, a powerful nearby transmitter, and receiver filters that are not sharp enough.",
+    "subjectId": "wmc",
+    "qId": "wmc-q4",
+    "clip": "idea_cause-adj"
+  },
+  {
+    "id": "wmc/wmc-q4/idea_ccir",
+    "text": "CCI vs ACI. CCI is same-frequency and is usually managed by cell planning. ACI is near-frequency and is managed by better filters and guard bands.",
+    "subjectId": "wmc",
+    "qId": "wmc-q4",
+    "clip": "idea_ccir"
+  },
+  {
+    "id": "wmc/wmc-q4/idea_mitigation",
+    "text": "Mitigation. Fixes are frequency reuse planning, increasing frequency reuse distance, guard bands, and sharp receiver filters.",
+    "subjectId": "wmc",
+    "qId": "wmc-q4",
+    "clip": "idea_mitigation"
+  },
+  {
+    "id": "wmc/wmc-q4/idea_effect",
+    "text": "Effect. Both reduce the signal-to-noise ratio and push the bit error rate up, which causes errors and dropped calls.",
+    "subjectId": "wmc",
+    "qId": "wmc-q4",
+    "clip": "idea_effect"
+  },
+  {
+    "id": "wmc/wmc-q4/idea_example",
+    "text": "Real example. CCI example: two neighbours on a walkie-talkie channel 5 talking at once. ACI example: channel 4 bleeding into channel 5.",
+    "subjectId": "wmc",
+    "qId": "wmc-q4",
+    "clip": "idea_example"
+  },
+  {
+    "id": "wmc/wmc-q4/idea_measure",
+    "text": "CCI vs SIR, ACI vs SINR. CCI is usually quoted as SIR. ACI needs SINR because it also counts neighbouring co-channel noise.",
+    "subjectId": "wmc",
+    "qId": "wmc-q4",
+    "clip": "idea_measure"
+  },
+  {
+    "id": "wmc/wmc-q4/idea_scale",
+    "text": "Different scale. CCI is a big, slow problem from whole cells. ACI is a smaller, local problem from one strong neighbour.",
+    "subjectId": "wmc",
+    "qId": "wmc-q4",
+    "clip": "idea_scale"
+  },
+  {
+    "id": "wmc/wmc-q5/analogy",
+    "text": "Think of passing a接力. Imagine passing a heavy box between several people as you walk along. Handover is passing your live call from one tower to the next so you never notice a break.",
+    "subjectId": "wmc",
+    "qId": "wmc-q5",
+    "clip": "analogy"
+  },
+  {
+    "id": "wmc/wmc-q5/definition",
+    "text": "Handover is switching a call that is already running from one base station or cell to another, without dropping it, when you move out of the first cell.",
+    "subjectId": "wmc",
+    "qId": "wmc-q5",
+    "clip": "definition"
+  },
+  {
+    "id": "wmc/wmc-q5/question",
+    "text": "Define handover in cellular networks. Why is it necessary? Explain the different types of handover.",
+    "subjectId": "wmc",
+    "qId": "wmc-q5",
+    "clip": "question"
+  },
+  {
+    "id": "wmc/wmc-q5/mnemonic",
+    "text": "Handover Helps Ongoing Calls Reach Everywhere, Happily Over Networks Nicely",
+    "subjectId": "wmc",
+    "qId": "wmc-q5",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "wmc/wmc-q5/idea_def",
+    "text": "Handover. Transferring an in-progress call from one cell to another while the call stays connected.",
+    "subjectId": "wmc",
+    "qId": "wmc-q5",
+    "clip": "idea_def"
+  },
+  {
+    "id": "wmc/wmc-q5/idea_why",
+    "text": "Why it is needed. Without it your call would drop the moment you drove out of a cell. It gives continuous coverage and frees up a busy cell.",
+    "subjectId": "wmc",
+    "qId": "wmc-q5",
+    "clip": "idea_why"
+  },
+  {
+    "id": "wmc/wmc-q5/idea_trigger",
+    "text": "Handover trigger. It is triggered when the received signal drops below a threshold or the neighbouring cell becomes stronger than the current one.",
+    "subjectId": "wmc",
+    "qId": "wmc-q5",
+    "clip": "idea_trigger"
+  },
+  {
+    "id": "wmc/wmc-q5/idea_types",
+    "text": "Types of handover. There are three kinds: hard, soft, and horizontal.",
+    "subjectId": "wmc",
+    "qId": "wmc-q5",
+    "clip": "idea_types"
+  },
+  {
+    "id": "wmc/wmc-q5/idea_hard",
+    "text": "Hard handover. Break-before-make. The old link is torn down first, then the new one is set up. There is a short gap.",
+    "subjectId": "wmc",
+    "qId": "wmc-q5",
+    "clip": "idea_hard"
+  },
+  {
+    "id": "wmc/wmc-q5/idea_soft",
+    "text": "Soft handover. Make-before-break. The new link comes up first and only then the old one is dropped, so there is no gap.",
+    "subjectId": "wmc",
+    "qId": "wmc-q5",
+    "clip": "idea_soft"
+  },
+  {
+    "id": "wmc/wmc-q5/idea_horizontal",
+    "text": "Horizontal vs vertical. Horizontal handover is between cells at the same level. Vertical is between different network levels such as macro to micro or pico.",
+    "subjectId": "wmc",
+    "qId": "wmc-q5",
+    "clip": "idea_horizontal"
+  },
+  {
+    "id": "wmc/wmc-q5/idea_measurement",
+    "text": "Measurements. The mobile measures signal strength and delay, sends them to the network, and the network decides when to hand over.",
+    "subjectId": "wmc",
+    "qId": "wmc-q5",
+    "clip": "idea_measurement"
+  },
+  {
+    "id": "wmc/wmc-q5/idea_goal",
+    "text": "Goal. The goal is to hand over at just the right moment - early enough to avoid a drop, late enough to avoid ping-pong between two cells.",
+    "subjectId": "wmc",
+    "qId": "wmc-q5",
+    "clip": "idea_goal"
+  },
+  {
+    "id": "wmc/wmc-q5/idea_example",
+    "text": "Real example. Driving from Dombivli to a neighbouring area and the call quietly moves to a different tower without dropping.",
+    "subjectId": "wmc",
+    "qId": "wmc-q5",
+    "clip": "idea_example"
+  },
+  {
+    "id": "wmc/wmc-q6/analogy",
+    "text": "Think of ordering a taxi. You call a taxi app, it asks the nearby drivers who is free, picks one, tells the driver where you are, and opens the line. A mobile call setup works the same way.",
+    "subjectId": "wmc",
+    "qId": "wmc-q6",
+    "clip": "analogy"
+  },
+  {
+    "id": "wmc/wmc-q6/definition",
+    "text": "Call setup is the handshake that happens before you talk. Your phone finds the network, asks permission to call, the network locates the other party, and then the two sides are connected.",
+    "subjectId": "wmc",
+    "qId": "wmc-q6",
+    "clip": "definition"
+  },
+  {
+    "id": "wmc/wmc-q6/question",
+    "text": "Explain the simplified call setup process in a cellular network.",
+    "subjectId": "wmc",
+    "qId": "wmc-q6",
+    "clip": "question"
+  },
+  {
+    "id": "wmc/wmc-q6/mnemonic",
+    "text": "Calls Begin And Ring Answers Begin, Everyone Ready To Talk",
+    "subjectId": "wmc",
+    "qId": "wmc-q6",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "wmc/wmc-q6/idea_start",
+    "text": "Call request. You dial the number and press call. The phone sends a request to the network through the nearest tower.",
+    "subjectId": "wmc",
+    "qId": "wmc-q6",
+    "clip": "idea_start"
+  },
+  {
+    "id": "wmc/wmc-q6/idea_msisdn",
+    "text": "Number lookup. The network takes your dialled number and finds out whose phone it is and which home network it belongs to.",
+    "subjectId": "wmc",
+    "qId": "wmc-q6",
+    "clip": "idea_msisdn"
+  },
+  {
+    "id": "wmc/wmc-q6/idea_auth",
+    "text": "Authentication. Your SIM proves who you are and the network checks that you are allowed to make a call and that you can pay.",
+    "subjectId": "wmc",
+    "qId": "wmc-q6",
+    "clip": "idea_auth"
+  },
+  {
+    "id": "wmc/wmc-q6/idea_roaming-check",
+    "text": "Roaming check. If the other phone belongs to a different network, the network checks whether roaming is permitted before it continues.",
+    "subjectId": "wmc",
+    "qId": "wmc-q6",
+    "clip": "idea_roaming-check"
+  },
+  {
+    "id": "wmc/wmc-q6/idea_paging",
+    "text": "Paging. The network broadcasts a page message across the whole area of the destination cell so the other phone knows it is being called.",
+    "subjectId": "wmc",
+    "qId": "wmc-q6",
+    "clip": "idea_paging"
+  },
+  {
+    "id": "wmc/wmc-q6/idea_alert",
+    "text": "Alerting. The other phone gets the page and starts ringing, or shows an incoming call alert if it is busy or unanswered.",
+    "subjectId": "wmc",
+    "qId": "wmc-q6",
+    "clip": "idea_alert"
+  },
+  {
+    "id": "wmc/wmc-q6/idea_accept",
+    "text": "Accept / connect. When the person answers, the network assigns a traffic channel and the voice path is switched through. The call is now connected.",
+    "subjectId": "wmc",
+    "qId": "wmc-q6",
+    "clip": "idea_accept"
+  },
+  {
+    "id": "wmc/wmc-q6/idea_teardown",
+    "text": "Call release. When either side hangs up, the network sends a release message and frees the channel so other people can use it.",
+    "subjectId": "wmc",
+    "qId": "wmc-q6",
+    "clip": "idea_teardown"
+  },
+  {
+    "id": "wmc/wmc-q6/idea_entities",
+    "text": "Who is involved. The main parts are the mobile, the base station, the mobile switching centre and the visited or home network.",
+    "subjectId": "wmc",
+    "qId": "wmc-q6",
+    "clip": "idea_entities"
+  },
+  {
+    "id": "wmc/wmc-q6/idea_steps-order",
+    "text": "Order of steps. The order is: dial, authentication, number lookup, paging, alerting, accept, then release at the end.",
+    "subjectId": "wmc",
+    "qId": "wmc-q6",
+    "clip": "idea_steps-order"
+  },
+  {
+    "id": "wmc/wmc-q7/analogy",
+    "text": "Think of borrowing a plug. In another country your charger does not fit the socket, so you borrow theirs. Roaming is the same idea - the other country lets your phone borrow their network so it keeps working.",
+    "subjectId": "wmc",
+    "qId": "wmc-q7",
+    "clip": "analogy"
+  },
+  {
+    "id": "wmc/wmc-q7/definition",
+    "text": "Roaming is when your SIM is used in a network that is not your home network, usually in another city or another country, and that network still gives you service.",
+    "subjectId": "wmc",
+    "qId": "wmc-q7",
+    "clip": "definition"
+  },
+  {
+    "id": "wmc/wmc-q7/question",
+    "text": "What is roaming in cellular networks? Explain its advantages and limitations. How does roaming differ from handover?",
+    "subjectId": "wmc",
+    "qId": "wmc-q7",
+    "clip": "question"
+  },
+  {
+    "id": "wmc/wmc-q7/mnemonic",
+    "text": "Roaming Runs Any Network Abroad, Keeps Home Number Just Fine",
+    "subjectId": "wmc",
+    "qId": "wmc-q7",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "wmc/wmc-q7/idea_def",
+    "text": "Roaming. Using your SIM on a network that does not belong to you, while keeping your own number and getting charged by your home operator.",
+    "subjectId": "wmc",
+    "qId": "wmc-q7",
+    "clip": "idea_def"
+  },
+  {
+    "id": "wmc/wmc-q7/idea_how",
+    "text": "How it works. Your SIM registers with the visited network instead of your home network. The two networks then talk to each other through agreements.",
+    "subjectId": "wmc",
+    "qId": "wmc-q7",
+    "clip": "idea_how"
+  },
+  {
+    "id": "wmc/wmc-q7/idea_adv1",
+    "text": "Advantage - reachability. You can use your own number anywhere in the world without buying a new SIM.",
+    "subjectId": "wmc",
+    "qId": "wmc-q7",
+    "clip": "idea_adv1"
+  },
+  {
+    "id": "wmc/wmc-q7/idea_adv2",
+    "text": "Advantage - convenience. No need to hunt for a local SIM or unlock the phone. It just works when you land.",
+    "subjectId": "wmc",
+    "qId": "wmc-q7",
+    "clip": "idea_adv2"
+  },
+  {
+    "id": "wmc/wmc-q7/idea_adv3",
+    "text": "Advantage - seamless. Calls and data work the same way as at home, so you do not have to change how you use your phone.",
+    "subjectId": "wmc",
+    "qId": "wmc-q7",
+    "clip": "idea_adv3"
+  },
+  {
+    "id": "wmc/wmc-q7/idea_lim1",
+    "text": "Limitation - cost. Roaming calls and data are expensive because the visited operator charges your home operator extra.",
+    "subjectId": "wmc",
+    "qId": "wmc-q7",
+    "clip": "idea_lim1"
+  },
+  {
+    "id": "wmc/wmc-q7/idea_lim2",
+    "text": "Limitation - coverage. You get no service where your home network has no roaming partner at all.",
+    "subjectId": "wmc",
+    "qId": "wmc-q7",
+    "clip": "idea_lim2"
+  },
+  {
+    "id": "wmc/wmc-q7/idea_lim3",
+    "text": "Limitation - speed. If the visited network is an older generation, your data speed is much lower even on the same phone.",
+    "subjectId": "wmc",
+    "qId": "wmc-q7",
+    "clip": "idea_lim3"
+  },
+  {
+    "id": "wmc/wmc-q7/idea_diff1",
+    "text": "Roaming vs handover. Handover moves between cells of the SAME network. Roaming moves between networks that are DIFFERENT operators.",
+    "subjectId": "wmc",
+    "qId": "wmc-q7",
+    "clip": "idea_diff1"
+  },
+  {
+    "id": "wmc/wmc-q7/idea_diff2",
+    "text": "Roaming vs handover - the other difference. Handover is a normal, continuous, built-in process. Roaming needs a commercial agreement and billing setup between the two operators.",
+    "subjectId": "wmc",
+    "qId": "wmc-q7",
+    "clip": "idea_diff2"
+  },
+  {
+    "id": "wmc/wmc-q8/analogy",
+    "text": "Think of an ID card. A SIM card is like your student ID card - it holds who you are and proves it when asked. The IMSI is the roll number printed on that card, and it never changes.",
+    "subjectId": "wmc",
+    "qId": "wmc-q8",
+    "clip": "analogy"
+  },
+  {
+    "id": "wmc/wmc-q8/definition",
+    "text": "The SIM is a small removable card in your phone that stores your identity and subscriber information. The IMSI is the unique number inside the SIM that permanently identifies you on every network in the world.",
+    "subjectId": "wmc",
+    "qId": "wmc-q8",
+    "clip": "definition"
+  },
+  {
+    "id": "wmc/wmc-q8/question",
+    "text": "What are SIM and IMSI in mobile networks? Explain their roles and significance in mobile communication.",
+    "subjectId": "wmc",
+    "qId": "wmc-q8",
+    "clip": "question"
+  },
+  {
+    "id": "wmc/wmc-q8/mnemonic",
+    "text": "Small Cards Really Identify, Widely Trusted, Distinctly Embedded, Dual, Secure",
+    "subjectId": "wmc",
+    "qId": "wmc-q8",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "wmc/wmc-q8/idea_sim-def",
+    "text": "SIM. Subscriber Identity Module. A small chip card holding your identity, key and network settings.",
+    "subjectId": "wmc",
+    "qId": "wmc-q8",
+    "clip": "idea_sim-def"
+  },
+  {
+    "id": "wmc/wmc-q8/idea_sim-tasks",
+    "text": "What SIM stores. It stores your phone number, your encryption key, your contacts and network information, and it does the security work for the network.",
+    "subjectId": "wmc",
+    "qId": "wmc-q8",
+    "clip": "idea_sim-tasks"
+  },
+  {
+    "id": "wmc/wmc-q8/idea_sim-role",
+    "text": "Role of SIM. The SIM proves your identity to the network and holds the keys used to encrypt your calls and data.",
+    "subjectId": "wmc",
+    "qId": "wmc-q8",
+    "clip": "idea_sim-role"
+  },
+  {
+    "id": "wmc/wmc-q8/idea_imsi-def",
+    "text": "IMSI. International Mobile Subscriber Identity. A unique 15-digit number that permanently identifies the subscriber.",
+    "subjectId": "wmc",
+    "qId": "wmc-q8",
+    "clip": "idea_imsi-def"
+  },
+  {
+    "id": "wmc/wmc-q8/idea_imsi-why",
+    "text": "Why IMSI matters. The network uses the IMSI as the real identity of the subscriber worldwide, whatever SIM card or number you happen to be using.",
+    "subjectId": "wmc",
+    "qId": "wmc-q8",
+    "clip": "idea_imsi-why"
+  },
+  {
+    "id": "wmc/wmc-q8/idea_imsi-privacy",
+    "text": "IMSI is permanent. The IMSI does not change even if you change your phone number or your SIM card.",
+    "subjectId": "wmc",
+    "qId": "wmc-q8",
+    "clip": "idea_imsi-privacy"
+  },
+  {
+    "id": "wmc/wmc-q8/idea_diff",
+    "text": "SIM vs IMSI. The SIM is the physical card. The IMSI is the number inside it. You can throw away the card but the IMSI identity stays.",
+    "subjectId": "wmc",
+    "qId": "wmc-q8",
+    "clip": "idea_diff"
+  },
+  {
+    "id": "wmc/wmc-q8/idea_esim",
+    "text": "eSIM. An eSIM is the SIM built into the phone as a chip, so you activate a new operator by downloading a profile instead of swapping plastic.",
+    "subjectId": "wmc",
+    "qId": "wmc-q8",
+    "clip": "idea_esim"
+  },
+  {
+    "id": "wmc/wmc-q8/idea_duality",
+    "text": "Dual SIM. A dual SIM phone holds two SIMs, so you keep two numbers and switch between them for work and personal calls.",
+    "subjectId": "wmc",
+    "qId": "wmc-q8",
+    "clip": "idea_duality"
+  },
+  {
+    "id": "wmc/wmc-q8/idea_security",
+    "text": "Security significance. Because the SIM holds the encryption keys, cloning it lets an attacker impersonate you, which is why SIM swap fraud exists.",
+    "subjectId": "wmc",
+    "qId": "wmc-q8",
+    "clip": "idea_security"
+  },
+  {
+    "id": "wmc/wmc-q9/analogy",
+    "text": "Think of a kitchen vs a factory. A factory far away makes everything and sends it to you, so it is slow. A small kitchen in your own building cooks instantly. Edge computing is the kitchen; the cloud is the factory.",
+    "subjectId": "wmc",
+    "qId": "wmc-q9",
+    "clip": "analogy"
+  },
+  {
+    "id": "wmc/wmc-q9/definition",
+    "text": "Edge computing means doing the processing on small servers placed close to you, instead of sending everything to a distant cloud. AI means the network can learn patterns by itself and make smart decisions without being told every rule.",
+    "subjectId": "wmc",
+    "qId": "wmc-q9",
+    "clip": "definition"
+  },
+  {
+    "id": "wmc/wmc-q9/question",
+    "text": "Explain the role of Edge Computing and Artificial Intelligence (AI) in modern telecommunication networks. Discuss their key applications and benefits.",
+    "subjectId": "wmc",
+    "qId": "wmc-q9",
+    "clip": "question"
+  },
+  {
+    "id": "wmc/wmc-q9/mnemonic",
+    "text": "Edge And Wireless Bring Adaptive Usage, Improved Speed, Privacy, Reliability",
+    "subjectId": "wmc",
+    "qId": "wmc-q9",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "wmc/wmc-q9/idea_edge-def",
+    "text": "Edge computing. Processing data on servers located near the user and the device, rather than in a distant central cloud.",
+    "subjectId": "wmc",
+    "qId": "wmc-q9",
+    "clip": "idea_edge-def"
+  },
+  {
+    "id": "wmc/wmc-q9/idea_ai-def",
+    "text": "Artificial intelligence. AI in networks means software that learns from data and makes decisions by itself, such as predicting congestion.",
+    "subjectId": "wmc",
+    "qId": "wmc-q9",
+    "clip": "idea_ai-def"
+  },
+  {
+    "id": "wmc/wmc-q9/idea_why",
+    "text": "Why edge helps. It cuts the distance data must travel, so latency drops sharply. That makes things like real-time control and instant AR possible.",
+    "subjectId": "wmc",
+    "qId": "wmc-q9",
+    "clip": "idea_why"
+  },
+  {
+    "id": "wmc/wmc-q9/idea_bandwidth",
+    "text": "Bandwidth saving. Data is processed locally, so far less raw data has to travel back to the cloud. That saves network bandwidth.",
+    "subjectId": "wmc",
+    "qId": "wmc-q9",
+    "clip": "idea_bandwidth"
+  },
+  {
+    "id": "wmc/wmc-q9/idea_app1",
+    "text": "Application - network optimisation. AI predicts traffic patterns and congestion and tells the network how to allocate spectrum and power before problems happen.",
+    "subjectId": "wmc",
+    "qId": "wmc-q9",
+    "clip": "idea_app1"
+  },
+  {
+    "id": "wmc/wmc-q9/idea_app2",
+    "text": "Application - user experience. The network watches real-time conditions and adapts bandwidth, power and routing to keep your speed and video quality good.",
+    "subjectId": "wmc",
+    "qId": "wmc-q9",
+    "clip": "idea_app2"
+  },
+  {
+    "id": "wmc/wmc-q9/idea_app3",
+    "text": "Application - IoT and smart. Millions of sensors and IoT devices send data; edge AI processes it instantly for smart homes, smart grids and wearables.",
+    "subjectId": "wmc",
+    "qId": "wmc-q9",
+    "clip": "idea_app3"
+  },
+  {
+    "id": "wmc/wmc-q9/idea_app4",
+    "text": "Application - security. Edge systems watch for odd behaviour and attacks and block them early, before the data travels anywhere.",
+    "subjectId": "wmc",
+    "qId": "wmc-q9",
+    "clip": "idea_app4"
+  },
+  {
+    "id": "wmc/wmc-q9/idea_benefit1",
+    "text": "Benefit - privacy. Because data is handled locally, less of it leaves the device, which improves privacy and meets strict data laws.",
+    "subjectId": "wmc",
+    "qId": "wmc-q9",
+    "clip": "idea_benefit1"
+  },
+  {
+    "id": "wmc/wmc-q9/idea_benefit2",
+    "text": "Benefit - reliability & cost. It works even if the cloud link drops, and it cuts cloud usage cost, which makes 5G and IoT affordable to run.",
+    "subjectId": "wmc",
+    "qId": "wmc-q9",
+    "clip": "idea_benefit2"
+  },
+  {
+    "id": "wmc/wmc-q10/analogy",
+    "text": "Think of upgrading a road. Narrow roads with traffic jams become wide expressways with smooth flow. 5G upgrades the data road: much more traffic, no waiting, and nothing breaks.",
+    "subjectId": "wmc",
+    "qId": "wmc-q10",
+    "clip": "analogy"
+  },
+  {
+    "id": "wmc/wmc-q10/definition",
+    "text": "5G is the fifth generation mobile network. It gives very high data rates, very low latency and very reliable connections, which is what smart cities and self-driving things need to work.",
+    "subjectId": "wmc",
+    "qId": "wmc-q10",
+    "clip": "definition"
+  },
+  {
+    "id": "wmc/wmc-q10/question",
+    "text": "Explain the major applications of 5G technology in smart cities and autonomous systems. Discuss how 5G enables these applications through high data rates, low latency, and reliable connectivity.",
+    "subjectId": "wmc",
+    "qId": "wmc-q10",
+    "clip": "question"
+  },
+  {
+    "id": "wmc/wmc-q10/mnemonic",
+    "text": "Data Streams Low, Ranges Clear; Everything Arrives Swiftly And Accurately",
+    "subjectId": "wmc",
+    "qId": "wmc-q10",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "wmc/wmc-q10/idea_def",
+    "text": "5G. Fifth generation mobile network, offering high speed, very low latency and reliable connections on a huge number of devices.",
+    "subjectId": "wmc",
+    "qId": "wmc-q10",
+    "clip": "idea_def"
+  },
+  {
+    "id": "wmc/wmc-q10/idea_speed",
+    "text": "High data rate. Data rates are much higher than 4G, so HD video, AR and huge files download almost instantly.",
+    "subjectId": "wmc",
+    "qId": "wmc-q10",
+    "clip": "idea_speed"
+  },
+  {
+    "id": "wmc/wmc-q10/idea_latency",
+    "text": "Low latency. Latency is extremely low, so decisions happen almost instantly. This is what makes remote control and driving work.",
+    "subjectId": "wmc",
+    "qId": "wmc-q10",
+    "clip": "idea_latency"
+  },
+  {
+    "id": "wmc/wmc-q10/idea_reliable",
+    "text": "Reliability & capacity. 5G is far more reliable and can connect an enormous number of devices per square kilometre.",
+    "subjectId": "wmc",
+    "qId": "wmc-q10",
+    "clip": "idea_reliable"
+  },
+  {
+    "id": "wmc/wmc-q10/idea_smart1",
+    "text": "Smart city - traffic. Connected traffic lights, smart parking and live road monitoring cut jams and travel time across the city.",
+    "subjectId": "wmc",
+    "qId": "wmc-q10",
+    "clip": "idea_smart1"
+  },
+  {
+    "id": "wmc/wmc-q10/idea_smart2",
+    "text": "Smart city - services. Connected water meters, smart grids and street sensors let the city run utilities safely and waste less.",
+    "subjectId": "wmc",
+    "qId": "wmc-q10",
+    "clip": "idea_smart2"
+  },
+  {
+    "id": "wmc/wmc-q10/idea_smart3",
+    "text": "Smart city - safety. High-resolution cameras and quick alerts help emergency services locate people and respond faster.",
+    "subjectId": "wmc",
+    "qId": "wmc-q10",
+    "clip": "idea_smart3"
+  },
+  {
+    "id": "wmc/wmc-q10/idea_auto",
+    "text": "Autonomous systems. Self-driving cars receive live maps of the road and talk to nearby cars and traffic systems instantly.",
+    "subjectId": "wmc",
+    "qId": "wmc-q10",
+    "clip": "idea_auto"
+  },
+  {
+    "id": "wmc/wmc-q10/idea_auto2",
+    "text": "Autonomous - why it needs 5G. A self-driving car must make split-second decisions. Low latency and reliability stop mistakes being sent to the cloud and back too late.",
+    "subjectId": "wmc",
+    "qId": "wmc-q10",
+    "clip": "idea_auto2"
+  },
+  {
+    "id": "wmc/wmc-q10/idea_enable",
+    "text": "How 5G enables it. High rates move lots of camera data, low latency allows instant decisions, and reliability connects thousands of devices safely. All three together make these apps possible.",
+    "subjectId": "wmc",
+    "qId": "wmc-q10",
+    "clip": "idea_enable"
+  },
+  {
+    "id": "aiml/aiml-q1/analogy",
+    "text": "Like sorting a pile of marbles. You guess how many colours there are, put a marker in the middle of each colour, then keep moving each marker to the middle of its own marbles until nothing moves.",
+    "subjectId": "aiml",
+    "qId": "aiml-q1",
+    "clip": "analogy"
+  },
+  {
+    "id": "aiml/aiml-q1/definition",
+    "text": "K-Means puts data into K groups on its own, with no labels given. Each group has a middle point, and the algorithm moves those middles until the groups settle.",
+    "subjectId": "aiml",
+    "qId": "aiml-q1",
+    "clip": "definition"
+  },
+  {
+    "id": "aiml/aiml-q1/question",
+    "text": "Explain K-Means Clustering. Describe its working process and discuss its advantages and limitations.",
+    "subjectId": "aiml",
+    "qId": "aiml-q1",
+    "clip": "question"
+  },
+  {
+    "id": "aiml/aiml-q1/mnemonic",
+    "text": "Unlabelled Keys Cluster Into A Unique Image, With Accurate Labels",
+    "subjectId": "aiml",
+    "qId": "aiml-q1",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "aiml/aiml-q1/idea_unsup",
+    "text": "Unsupervised Learning. K-Means works on data that has no answers attached. It has to find the groups all by itself.",
+    "subjectId": "aiml",
+    "qId": "aiml-q1",
+    "clip": "idea_unsup"
+  },
+  {
+    "id": "aiml/aiml-q1/idea_choosek",
+    "text": "K (Number of Clusters). You fix K, the number of groups, before you start. K-means simply means how many groups you asked for.",
+    "subjectId": "aiml",
+    "qId": "aiml-q1",
+    "clip": "idea_choosek"
+  },
+  {
+    "id": "aiml/aiml-q1/idea_centroid",
+    "text": "Centroid. Every group has one middle point called a centroid. It is the average spot of that whole group.",
+    "subjectId": "aiml",
+    "qId": "aiml-q1",
+    "clip": "idea_centroid"
+  },
+  {
+    "id": "aiml/aiml-q1/idea_init",
+    "text": "Initialization. Start by dropping K centroids somewhere in the data. K-Means++ drops them far apart, so it converges faster.",
+    "subjectId": "aiml",
+    "qId": "aiml-q1",
+    "clip": "idea_init"
+  },
+  {
+    "id": "aiml/aiml-q1/idea_assign",
+    "text": "Assignment Step (Nearest Centroid). Every data point joins the closest centroid. The gap is measured with Euclidean distance, which is just the straight line between two points.",
+    "subjectId": "aiml",
+    "qId": "aiml-q1",
+    "clip": "idea_assign"
+  },
+  {
+    "id": "aiml/aiml-q1/idea_update",
+    "text": "Update Step (New Centroid = Mean). Each centroid is moved to the average of the points assigned to it. It becomes the new middle of that group.",
+    "subjectId": "aiml",
+    "qId": "aiml-q1",
+    "clip": "idea_update"
+  },
+  {
+    "id": "aiml/aiml-q1/idea_iterate",
+    "text": "Iteration Until Convergence. Repeat the assign and update steps again and again. Stop when the centroids stop moving and the groups stop changing.",
+    "subjectId": "aiml",
+    "qId": "aiml-q1",
+    "clip": "idea_iterate"
+  },
+  {
+    "id": "aiml/aiml-q1/idea_wcss",
+    "text": "WCSS (Within-Cluster Sum of Squares). WCSS adds up the squared distance from every point to its own centroid. K-Means tries hard to make that total small.",
+    "subjectId": "aiml",
+    "qId": "aiml-q1",
+    "clip": "idea_wcss"
+  },
+  {
+    "id": "aiml/aiml-q1/idea_adv",
+    "text": "Advantages. It is simple, quick and easy to code. It handles very large data and does well when the groups are round and clearly separate.",
+    "subjectId": "aiml",
+    "qId": "aiml-q1",
+    "clip": "idea_adv"
+  },
+  {
+    "id": "aiml/aiml-q1/idea_lim",
+    "text": "Limitations. You must guess K in advance. Outliers drag the centroids around, and flat or oddly shaped groups get mixed up.",
+    "subjectId": "aiml",
+    "qId": "aiml-q1",
+    "clip": "idea_lim"
+  },
+  {
+    "id": "aiml/aiml-q3/analogy",
+    "text": "Like watching what shoppers buy together. You notice bread is always in the same basket as butter, so you write a rule saying one brings the other along.",
+    "subjectId": "aiml",
+    "qId": "aiml-q3",
+    "clip": "analogy"
+  },
+  {
+    "id": "aiml/aiml-q3/definition",
+    "text": "Association rule mining looks for items that keep appearing in the same basket. It writes the finding as a rule X implies Y, and measures that rule with support, confidence and lift.",
+    "subjectId": "aiml",
+    "qId": "aiml-q3",
+    "clip": "definition"
+  },
+  {
+    "id": "aiml/aiml-q3/question",
+    "text": "What is Association Rule Mining? Explain the concepts of support, confidence, and lift with an example.",
+    "subjectId": "aiml",
+    "qId": "aiml-q3",
+    "clip": "question"
+  },
+  {
+    "id": "aiml/aiml-q3/mnemonic",
+    "text": "Any Rule Seen Separately, Counted Carefully, Lifts Links To Applications",
+    "subjectId": "aiml",
+    "qId": "aiml-q3",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "aiml/aiml-q3/idea_arm",
+    "text": "Association Rule Mining. It scans transaction data and finds items that show up together again and again. The output is a set of rules.",
+    "subjectId": "aiml",
+    "qId": "aiml-q3",
+    "clip": "idea_arm"
+  },
+  {
+    "id": "aiml/aiml-q3/idea_rule",
+    "text": "Rule (X implies Y). A rule is written as X => Y. Read it as: if a basket has X, it probably has Y as well.",
+    "subjectId": "aiml",
+    "qId": "aiml-q3",
+    "clip": "idea_rule"
+  },
+  {
+    "id": "aiml/aiml-q3/idea_support",
+    "text": "Support. Support is how common the itemset is to begin with. Support = number of baskets with X and Y / total baskets.",
+    "subjectId": "aiml",
+    "qId": "aiml-q3",
+    "clip": "idea_support"
+  },
+  {
+    "id": "aiml/aiml-q3/idea_suppex",
+    "text": "Support Example. If 30 out of 100 baskets have bread and butter together, then support is 30/100 = 0.30.",
+    "subjectId": "aiml",
+    "qId": "aiml-q3",
+    "clip": "idea_suppex"
+  },
+  {
+    "id": "aiml/aiml-q3/idea_conf",
+    "text": "Confidence. Confidence is how much you can trust the rule. Confidence(X=>Y) = Support(X and Y) / Support(X).",
+    "subjectId": "aiml",
+    "qId": "aiml-q3",
+    "clip": "idea_conf"
+  },
+  {
+    "id": "aiml/aiml-q3/idea_confex",
+    "text": "Confidence Example. Say 40 baskets have bread and butter, and 30 of those also have milk. Confidence = 30/40 = 0.75, so 75 percent of bread and butter buyers bought milk too.",
+    "subjectId": "aiml",
+    "qId": "aiml-q3",
+    "clip": "idea_confex"
+  },
+  {
+    "id": "aiml/aiml-q3/idea_lift",
+    "text": "Lift. Lift checks if X really helps Y, or if Y was going to appear anyway. Lift = Confidence / Support(Y).",
+    "subjectId": "aiml",
+    "qId": "aiml-q3",
+    "clip": "idea_lift"
+  },
+  {
+    "id": "aiml/aiml-q3/idea_liftval",
+    "text": "Lift Values. Lift of 1 means the two items are just unrelated. Above 1 means X really pulls Y along. Below 1 means X gets in the way of Y.",
+    "subjectId": "aiml",
+    "qId": "aiml-q3",
+    "clip": "idea_liftval"
+  },
+  {
+    "id": "aiml/aiml-q3/idea_thresh",
+    "text": "Minimum Support and Confidence Threshold. You set a cut-off for support and one for confidence first. Only rules that beat both cut-offs are kept.",
+    "subjectId": "aiml",
+    "qId": "aiml-q3",
+    "clip": "idea_thresh"
+  },
+  {
+    "id": "aiml/aiml-q3/idea_uses",
+    "text": "Applications. It powers market basket analysis, recommendation systems and cross selling. That is how a shop suggests milk beside bread.",
+    "subjectId": "aiml",
+    "qId": "aiml-q3",
+    "clip": "idea_uses"
+  },
+  {
+    "id": "aiml/aiml-q4/analogy",
+    "text": "Like a treasure hunt with a clue. If a big group of items is never bought together, no smaller part of that group can be worth looking for either. So you skip it early and save hours.",
+    "subjectId": "aiml",
+    "qId": "aiml-q4",
+    "clip": "analogy"
+  },
+  {
+    "id": "aiml/aiml-q4/definition",
+    "text": "Apriori finds frequently bought itemsets one level at a time. It grows sets from single items to pairs to triples, using one rule to cut the search early.",
+    "subjectId": "aiml",
+    "qId": "aiml-q4",
+    "clip": "definition"
+  },
+  {
+    "id": "aiml/aiml-q4/question",
+    "text": "Explain the Apriori Algorithm for Association Rule Learning. Describe its major steps and applications.",
+    "subjectId": "aiml",
+    "qId": "aiml-q4",
+    "clip": "question"
+  },
+  {
+    "id": "aiml/aiml-q4/mnemonic",
+    "text": "Apriori And Mining Find Joint Patterns, Cutting Repetitions, Revealing All",
+    "subjectId": "aiml",
+    "qId": "aiml-q4",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "aiml/aiml-q4/idea_apriori",
+    "text": "Apriori Algorithm. Apriori mines frequent itemsets step by step. It looks at one item, then pairs, then bigger and bigger sets.",
+    "subjectId": "aiml",
+    "qId": "aiml-q4",
+    "clip": "idea_apriori"
+  },
+  {
+    "id": "aiml/aiml-q4/idea_prop",
+    "text": "Apriori Property. If a set is frequent, then every smaller part of it is frequent too. This one property removes most of the work.",
+    "subjectId": "aiml",
+    "qId": "aiml-q4",
+    "clip": "idea_prop"
+  },
+  {
+    "id": "aiml/aiml-q4/idea_minsup",
+    "text": "Minimum Support Threshold. You fix the least support you are willing to accept. That cut-off decides which items count as frequent.",
+    "subjectId": "aiml",
+    "qId": "aiml-q4",
+    "clip": "idea_minsup"
+  },
+  {
+    "id": "aiml/aiml-q4/idea_l1",
+    "text": "Frequent 1-Itemset (L1). Scan the database and keep only the single items that clear the support bar. Those keepers are called L1.",
+    "subjectId": "aiml",
+    "qId": "aiml-q4",
+    "clip": "idea_l1"
+  },
+  {
+    "id": "aiml/aiml-q4/idea_join",
+    "text": "Join Step (Candidate Generation). Join each frequent set with itself to build bigger candidate sets. These candidates are written Ck.",
+    "subjectId": "aiml",
+    "qId": "aiml-q4",
+    "clip": "idea_join"
+  },
+  {
+    "id": "aiml/aiml-q4/idea_prune",
+    "text": "Prune Step. Drop any candidate that contains a rare subset. The Apriori property makes this pruning step very powerful.",
+    "subjectId": "aiml",
+    "qId": "aiml-q4",
+    "clip": "idea_prune"
+  },
+  {
+    "id": "aiml/aiml-q4/idea_scan",
+    "text": "Count Support by Scanning. Count how many times each remaining candidate appears in the database. Keep the ones above the bar as Lk.",
+    "subjectId": "aiml",
+    "qId": "aiml-q4",
+    "clip": "idea_scan"
+  },
+  {
+    "id": "aiml/aiml-q4/idea_repeat",
+    "text": "Repeat Until No More. Go back to the join step and do it all again with the larger set. Stop when a whole round produces nothing frequent.",
+    "subjectId": "aiml",
+    "qId": "aiml-q4",
+    "clip": "idea_repeat"
+  },
+  {
+    "id": "aiml/aiml-q4/idea_rules",
+    "text": "Rule Generation. Turn the frequent itemsets you found into rules. Keep only the ones that clear the confidence bar.",
+    "subjectId": "aiml",
+    "qId": "aiml-q4",
+    "clip": "idea_rules"
+  },
+  {
+    "id": "aiml/aiml-q4/idea_apps",
+    "text": "Applications. It is used in market basket analysis, recommendation systems and web mining. It scans the database many times, so FP-Growth runs faster.",
+    "subjectId": "aiml",
+    "qId": "aiml-q4",
+    "clip": "idea_apps"
+  },
+  {
+    "id": "aiml/aiml-q5/analogy",
+    "text": "Like photographing a crowd from the best angle. You pick the direction where the people spread out the most. That one photo line tells you almost everything the many cameras were seeing.",
+    "subjectId": "aiml",
+    "qId": "aiml-q5",
+    "clip": "analogy"
+  },
+  {
+    "id": "aiml/aiml-q5/definition",
+    "text": "Principal Component Analysis turns many correlated features into a few new ones. The new features are called principal components, and each one is a direction of maximum spread.",
+    "subjectId": "aiml",
+    "qId": "aiml-q5",
+    "clip": "definition"
+  },
+  {
+    "id": "aiml/aiml-q5/question",
+    "text": "What is Principal Component Analysis (PCA)? Explain how PCA performs dimensionality reduction and state its advantages.",
+    "subjectId": "aiml",
+    "qId": "aiml-q5",
+    "clip": "question"
+  },
+  {
+    "id": "aiml/aiml-q5/mnemonic",
+    "text": "Points Under Simple Coordinate Extraction Order Show Knowledge, Producing Advantages",
+    "subjectId": "aiml",
+    "qId": "aiml-q5",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "aiml/aiml-q5/idea_pca",
+    "text": "Principal Component Analysis (PCA). PCA is a way of squashing many features into a few new ones. It keeps the big patterns and drops the noise.",
+    "subjectId": "aiml",
+    "qId": "aiml-q5",
+    "clip": "idea_pca"
+  },
+  {
+    "id": "aiml/aiml-q5/idea_unsup",
+    "text": "Unsupervised. PCA needs no labels at all. It just looks at the numbers and how far apart they sit.",
+    "subjectId": "aiml",
+    "qId": "aiml-q5",
+    "clip": "idea_unsup"
+  },
+  {
+    "id": "aiml/aiml-q5/idea_std",
+    "text": "Standardization. First make every feature have mean zero and a similar scale. Otherwise a feature with huge numbers decides everything.",
+    "subjectId": "aiml",
+    "qId": "aiml-q5",
+    "clip": "idea_std"
+  },
+  {
+    "id": "aiml/aiml-q5/idea_cov",
+    "text": "Covariance Matrix. Build a table that shows how each pair of features moves together. Big values in it mean the features are linked.",
+    "subjectId": "aiml",
+    "qId": "aiml-q5",
+    "clip": "idea_cov"
+  },
+  {
+    "id": "aiml/aiml-q5/idea_eig",
+    "text": "Eigenvectors and Eigenvalues. Eigenvectors are the new directions to measure along. Eigenvalues say how much spread each direction carries.",
+    "subjectId": "aiml",
+    "qId": "aiml-q5",
+    "clip": "idea_eig"
+  },
+  {
+    "id": "aiml/aiml-q5/idea_orth",
+    "text": "Orthogonal (Uncorrelated) Components. The new components sit at right angles to each other. That is why they never repeat the same information.",
+    "subjectId": "aiml",
+    "qId": "aiml-q5",
+    "clip": "idea_orth"
+  },
+  {
+    "id": "aiml/aiml-q5/idea_sort",
+    "text": "Sort by Eigenvalue. Order the components from biggest eigenvalue to smallest. The first few carry the most information.",
+    "subjectId": "aiml",
+    "qId": "aiml-q5",
+    "clip": "idea_sort"
+  },
+  {
+    "id": "aiml/aiml-q5/idea_keep",
+    "text": "Choose Top k Components. Keep only the first k components. Aim for about 90 to 95 percent of the variance. A scree plot helps you choose k.",
+    "subjectId": "aiml",
+    "qId": "aiml-q5",
+    "clip": "idea_keep"
+  },
+  {
+    "id": "aiml/aiml-q5/idea_proj",
+    "text": "Projection (Z = X W). Multiply the data by the chosen component matrix to get the new smaller table. That is the projection step.",
+    "subjectId": "aiml",
+    "qId": "aiml-q5",
+    "clip": "idea_proj"
+  },
+  {
+    "id": "aiml/aiml-q5/idea_adv",
+    "text": "Advantages. It removes duplicated and noisy features, speeds up training and reduces overfitting. It also lets you plot data in 2D or 3D.",
+    "subjectId": "aiml",
+    "qId": "aiml-q5",
+    "clip": "idea_adv"
+  },
+  {
+    "id": "aiml/aiml-q9/analogy",
+    "text": "Like tasting one recipe five times. You cook on four parts of the pantry and taste on the fifth, then swap them around. After five rounds you know the recipe properly, not just one lucky try.",
+    "subjectId": "aiml",
+    "qId": "aiml-q9",
+    "clip": "analogy"
+  },
+  {
+    "id": "aiml/aiml-q9/definition",
+    "text": "Cross-validation tests a model several times on different slices of the data, then averages the scores. K-Fold splits the data into K equal folds and uses each one for testing exactly once.",
+    "subjectId": "aiml",
+    "qId": "aiml-q9",
+    "clip": "definition"
+  },
+  {
+    "id": "aiml/aiml-q9/question",
+    "text": "What is Cross-Validation? Explain the K-Fold Cross-Validation technique and its importance in model evaluation.",
+    "subjectId": "aiml",
+    "qId": "aiml-q9",
+    "clip": "question"
+  },
+  {
+    "id": "aiml/aiml-q9/mnemonic",
+    "text": "Careful Knights Train Round And See Learning Improve, Checking Knowledge",
+    "subjectId": "aiml",
+    "qId": "aiml-q9",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "aiml/aiml-q9/idea_cv",
+    "text": "Cross-Validation. The model is tested again and again on different slices of the data. This gives a steadier idea of how it will do on new data.",
+    "subjectId": "aiml",
+    "qId": "aiml-q9",
+    "clip": "idea_cv"
+  },
+  {
+    "id": "aiml/aiml-q9/idea_kfold",
+    "text": "K-Fold Cross-Validation. Cut the data into K equal folds. People usually use 5 or 10 folds.",
+    "subjectId": "aiml",
+    "qId": "aiml-q9",
+    "clip": "idea_kfold"
+  },
+  {
+    "id": "aiml/aiml-q9/idea_train",
+    "text": "Train on K-1 Folds. In each round the model trains on K-1 folds and is validated on the one fold held out.",
+    "subjectId": "aiml",
+    "qId": "aiml-q9",
+    "clip": "idea_train"
+  },
+  {
+    "id": "aiml/aiml-q9/idea_rotate",
+    "text": "Rotate Folds. Move the test fold along each round. Every fold is tested exactly once, so you get K rounds in all.",
+    "subjectId": "aiml",
+    "qId": "aiml-q9",
+    "clip": "idea_rotate"
+  },
+  {
+    "id": "aiml/aiml-q9/idea_avg",
+    "text": "Average the Scores. Average the K scores together. That average is the real result, not one lucky split.",
+    "subjectId": "aiml",
+    "qId": "aiml-q9",
+    "clip": "idea_avg"
+  },
+  {
+    "id": "aiml/aiml-q9/idea_strat",
+    "text": "Stratified K-Fold. Keep the same class ratio in every fold. This matters most when one class is rare.",
+    "subjectId": "aiml",
+    "qId": "aiml-q9",
+    "clip": "idea_strat"
+  },
+  {
+    "id": "aiml/aiml-q9/idea_variants",
+    "text": "LOOCV and Time Series Split. With tiny data you can leave one point out at a time. With time data you must not shuffle, so split it in order.",
+    "subjectId": "aiml",
+    "qId": "aiml-q9",
+    "clip": "idea_variants"
+  },
+  {
+    "id": "aiml/aiml-q9/idea_imp",
+    "text": "Importance in Model Evaluation. Every data point gets used for testing, so nothing is wasted. It also shows how much the score moves from split to split.",
+    "subjectId": "aiml",
+    "qId": "aiml-q9",
+    "clip": "idea_imp"
+  },
+  {
+    "id": "aiml/aiml-q9/idea_cost",
+    "text": "Computational Cost. The model trains K times, so cross-validation costs roughly K times more than a single split.",
+    "subjectId": "aiml",
+    "qId": "aiml-q9",
+    "clip": "idea_cost"
+  },
+  {
+    "id": "aiml/aiml-q9/idea_test",
+    "text": "Keep Test Set Untouched. The test set stays aside during cross-validation. Touch it once at the very end for the final score.",
+    "subjectId": "aiml",
+    "qId": "aiml-q9",
+    "clip": "idea_test"
+  },
+  {
+    "id": "aiml/aiml-q10/analogy",
+    "text": "Like a smoke alarm report. A false alarm is no fire but it still annoys you. A missed alarm means real smoke went unnoticed. Both are wrong, in very different ways.",
+    "subjectId": "aiml",
+    "qId": "aiml-q10",
+    "clip": "analogy"
+  },
+  {
+    "id": "aiml/aiml-q10/definition",
+    "text": "A confusion matrix is a small table of predicted classes against actual classes. It counts TP, TN, FP and FN, and the four metrics are all built from those counts.",
+    "subjectId": "aiml",
+    "qId": "aiml-q10",
+    "clip": "definition"
+  },
+  {
+    "id": "aiml/aiml-q10/question",
+    "text": "Explain the Confusion Matrix for a classification problem. Define Accuracy, Precision, Recall, and F1-Score.",
+    "subjectId": "aiml",
+    "qId": "aiml-q10",
+    "clip": "question"
+  },
+  {
+    "id": "aiml/aiml-q10/mnemonic",
+    "text": "Correct Table Tally, False Flags, And Precise Recalls, Finally Counting",
+    "subjectId": "aiml",
+    "qId": "aiml-q10",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "aiml/aiml-q10/idea_cm",
+    "text": "Confusion Matrix. It is a table of predicted classes against actual classes. The cells show where the model was right and where it was wrong.",
+    "subjectId": "aiml",
+    "qId": "aiml-q10",
+    "clip": "idea_cm"
+  },
+  {
+    "id": "aiml/aiml-q10/idea_tp",
+    "text": "True Positive (TP). The model said yes and the truth was also yes. A correct hit.",
+    "subjectId": "aiml",
+    "qId": "aiml-q10",
+    "clip": "idea_tp"
+  },
+  {
+    "id": "aiml/aiml-q10/idea_tn",
+    "text": "True Negative (TN). The model said no and the truth was also no. A correct clearance.",
+    "subjectId": "aiml",
+    "qId": "aiml-q10",
+    "clip": "idea_tn"
+  },
+  {
+    "id": "aiml/aiml-q10/idea_fp",
+    "text": "False Positive (FP). The model said yes but the truth was no. This is the false alarm, also called Type I error.",
+    "subjectId": "aiml",
+    "qId": "aiml-q10",
+    "clip": "idea_fp"
+  },
+  {
+    "id": "aiml/aiml-q10/idea_fn",
+    "text": "False Negative (FN). The model said no but the truth was yes. A real case slipped past. This is Type II error.",
+    "subjectId": "aiml",
+    "qId": "aiml-q10",
+    "clip": "idea_fn"
+  },
+  {
+    "id": "aiml/aiml-q10/idea_acc",
+    "text": "Accuracy. Accuracy is the share of all predictions that were right. Accuracy = (TP + TN) / total predictions.",
+    "subjectId": "aiml",
+    "qId": "aiml-q10",
+    "clip": "idea_acc"
+  },
+  {
+    "id": "aiml/aiml-q10/idea_prec",
+    "text": "Precision. Precision asks: of everything I flagged yes, how many really were yes? Precision = TP / (TP + FP).",
+    "subjectId": "aiml",
+    "qId": "aiml-q10",
+    "clip": "idea_prec"
+  },
+  {
+    "id": "aiml/aiml-q10/idea_rec",
+    "text": "Recall. Recall asks: of all the real yes cases, how many did I find? Recall = TP / (TP + FN).",
+    "subjectId": "aiml",
+    "qId": "aiml-q10",
+    "clip": "idea_rec"
+  },
+  {
+    "id": "aiml/aiml-q10/idea_f1",
+    "text": "F1-Score. F1 is the harmonic mean of precision and recall. F1 = 2 * precision * recall / (precision + recall). It gives both equal weight.",
+    "subjectId": "aiml",
+    "qId": "aiml-q10",
+    "clip": "idea_f1"
+  },
+  {
+    "id": "aiml/aiml-q10/idea_choose",
+    "text": "Choosing the Right Metric. If false alarms hurt more, use precision. If missed cases hurt more, use recall. When both hurt, use F1.",
+    "subjectId": "aiml",
+    "qId": "aiml-q10",
+    "clip": "idea_choose"
+  },
+  {
+    "id": "aiml/aiml-q12/analogy",
+    "text": "Like learning by memorising vs skipping. Memorising every line of a poem means you fail the moment the poem changes. Learning nothing at all also fails. You want to learn the pattern, not the words.",
+    "subjectId": "aiml",
+    "qId": "aiml-q12",
+    "clip": "analogy"
+  },
+  {
+    "id": "aiml/aiml-q12/definition",
+    "text": "Overfitting is when the model memorises the training data, so it scores well on training but badly on new data. Underfitting is when the model is too simple, so it scores badly everywhere.",
+    "subjectId": "aiml",
+    "qId": "aiml-q12",
+    "clip": "definition"
+  },
+  {
+    "id": "aiml/aiml-q12/question",
+    "text": "What are Overfitting and Underfitting? Explain their causes and discuss techniques used to prevent them.",
+    "subjectId": "aiml",
+    "qId": "aiml-q12",
+    "clip": "question"
+  },
+  {
+    "id": "aiml/aiml-q12/mnemonic",
+    "text": "Over Under Trading Over, Balance Causes, Remedies Restore Learning Generally",
+    "subjectId": "aiml",
+    "qId": "aiml-q12",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "aiml/aiml-q12/idea_over",
+    "text": "Overfitting. The model learns the noise in the training data along with the pattern. It scores beautifully on training data and fails on new data.",
+    "subjectId": "aiml",
+    "qId": "aiml-q12",
+    "clip": "idea_over"
+  },
+  {
+    "id": "aiml/aiml-q12/idea_under",
+    "text": "Underfitting. The model is too simple for the job. It scores badly on training data and badly on new data as well.",
+    "subjectId": "aiml",
+    "qId": "aiml-q12",
+    "clip": "idea_under"
+  },
+  {
+    "id": "aiml/aiml-q12/idea_sign",
+    "text": "Training vs Validation Gap. High training score plus low validation score means overfitting. Low scores on both sides means underfitting.",
+    "subjectId": "aiml",
+    "qId": "aiml-q12",
+    "clip": "idea_sign"
+  },
+  {
+    "id": "aiml/aiml-q12/idea_biasvar",
+    "text": "Bias and Variance. Underfitting is high bias. Overfitting is high variance. The best model sits somewhere between the two.",
+    "subjectId": "aiml",
+    "qId": "aiml-q12",
+    "clip": "idea_biasvar"
+  },
+  {
+    "id": "aiml/aiml-q12/idea_causeover",
+    "text": "Causes of Overfitting. Overfitting comes from a model that is too complex, too many features, too little data, or training that runs too long.",
+    "subjectId": "aiml",
+    "qId": "aiml-q12",
+    "clip": "idea_causeover"
+  },
+  {
+    "id": "aiml/aiml-q12/idea_causeunder",
+    "text": "Causes of Underfitting. Underfitting comes from a model that is too simple, weak features, regularisation that is too strong, or barely any training.",
+    "subjectId": "aiml",
+    "qId": "aiml-q12",
+    "clip": "idea_causeunder"
+  },
+  {
+    "id": "aiml/aiml-q12/idea_fixover",
+    "text": "Fixing Overfitting. Use cross-validation, L1 or L2 regularisation, dropout and early stopping. Giving the model more data, or more varied data, also helps.",
+    "subjectId": "aiml",
+    "qId": "aiml-q12",
+    "clip": "idea_fixover"
+  },
+  {
+    "id": "aiml/aiml-q12/idea_fixunder",
+    "text": "Fixing Underfitting. Use a bigger or stronger model, add better features and train for longer. Also loosen the regularisation a little.",
+    "subjectId": "aiml",
+    "qId": "aiml-q12",
+    "clip": "idea_fixunder"
+  },
+  {
+    "id": "aiml/aiml-q12/idea_curve",
+    "text": "Learning Curves. Plot the error against training set size. The shape of the curve tells you which of the two problems you have.",
+    "subjectId": "aiml",
+    "qId": "aiml-q12",
+    "clip": "idea_curve"
+  },
+  {
+    "id": "aiml/aiml-q12/idea_gen",
+    "text": "Generalization. A good model learns the real pattern and ignores the noise. That ability to work on unseen data is generalization, and it is the goal.",
+    "subjectId": "aiml",
+    "qId": "aiml-q12",
+    "clip": "idea_gen"
+  },
+  {
+    "id": "aiml/aiml-q13/analogy",
+    "text": "Like adjusting a radio dial. Some knobs are set inside the factory by the designer, not by the signal. You try a few settings and keep the one that gives the clearest sound.",
+    "subjectId": "aiml",
+    "qId": "aiml-q13",
+    "clip": "analogy"
+  },
+  {
+    "id": "aiml/aiml-q13/definition",
+    "text": "Hyperparameter tuning means trying many settings of a model and keeping the ones that score best on validation data. Grid Search tries every combination, while Random Search samples them.",
+    "subjectId": "aiml",
+    "qId": "aiml-q13",
+    "clip": "definition"
+  },
+  {
+    "id": "aiml/aiml-q13/question",
+    "text": "Explain Hyperparameter Tuning and Model Optimization. Discuss techniques such as Grid Search and Random Search.",
+    "subjectId": "aiml",
+    "qId": "aiml-q13",
+    "clip": "question"
+  },
+  {
+    "id": "aiml/aiml-q13/mnemonic",
+    "text": "Hunt Hard, Examine Grid, Random, Possible Combinations, Best Efficiently Applied",
+    "subjectId": "aiml",
+    "qId": "aiml-q13",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "aiml/aiml-q13/idea_tune",
+    "text": "Hyperparameter Tuning. You try different settings of the model and keep the ones that work best. This is also called model optimization.",
+    "subjectId": "aiml",
+    "qId": "aiml-q13",
+    "clip": "idea_tune"
+  },
+  {
+    "id": "aiml/aiml-q13/idea_hvparam",
+    "text": "Hyperparameters vs Parameters. Parameters are learned from the data while training. Hyperparameters are the settings you choose before training starts.",
+    "subjectId": "aiml",
+    "qId": "aiml-q13",
+    "clip": "idea_hvparam"
+  },
+  {
+    "id": "aiml/aiml-q13/idea_ex",
+    "text": "Hyperparameter Examples. Common hyperparameters are K in K-Means, tree depth, and the learning rate. The number of neighbours and the batch size also count.",
+    "subjectId": "aiml",
+    "qId": "aiml-q13",
+    "clip": "idea_ex"
+  },
+  {
+    "id": "aiml/aiml-q13/idea_grid",
+    "text": "Grid Search. Grid Search builds a grid of every possible combination of the settings. It tries all of them with cross-validation and keeps the best.",
+    "subjectId": "aiml",
+    "qId": "aiml-q13",
+    "clip": "idea_grid"
+  },
+  {
+    "id": "aiml/aiml-q13/idea_rand",
+    "text": "Random Search. Random Search picks settings at random from a fixed budget. It is much faster than grid search and often just as good.",
+    "subjectId": "aiml",
+    "qId": "aiml-q13",
+    "clip": "idea_rand"
+  },
+  {
+    "id": "aiml/aiml-q13/idea_proc",
+    "text": "Tuning Procedure. Fix the ranges first, score each candidate with K-fold, pick the winner, then retrain the model on all the data.",
+    "subjectId": "aiml",
+    "qId": "aiml-q13",
+    "clip": "idea_proc"
+  },
+  {
+    "id": "aiml/aiml-q13/idea_cvtune",
+    "text": "Use Cross-Validation for Tuning. Score every candidate with K-fold cross-validation, not one single split. Otherwise the winner is just a lucky split.",
+    "subjectId": "aiml",
+    "qId": "aiml-q13",
+    "clip": "idea_cvtune"
+  },
+  {
+    "id": "aiml/aiml-q13/idea_bayes",
+    "text": "Bayesian Optimization. Bayesian methods learn from earlier trials and choose the next promising values. They waste far fewer trials than a grid.",
+    "subjectId": "aiml",
+    "qId": "aiml-q13",
+    "clip": "idea_bayes"
+  },
+  {
+    "id": "aiml/aiml-q13/idea_band",
+    "text": "Early Stopping of Weak Trials. Methods like Hyperband stop a trial early when it looks bad. The saved time goes to the trials that look good.",
+    "subjectId": "aiml",
+    "qId": "aiml-q13",
+    "clip": "idea_band"
+  },
+  {
+    "id": "aiml/aiml-q13/idea_caution",
+    "text": "Avoid Data Leakage. Never tune on the test set. Fit the scaler inside a pipeline so no test information leaks into training.",
+    "subjectId": "aiml",
+    "qId": "aiml-q13",
+    "clip": "idea_caution"
+  },
+  {
+    "id": "seap/seap-q1/analogy",
+    "text": "Plan for a rainy picnic. You check the weather, work out how likely rain is and how bad it would be, keep an eye on the clouds, and carry a spare tent just in case.",
+    "subjectId": "seap",
+    "qId": "seap-q1",
+    "clip": "analogy"
+  },
+  {
+    "id": "seap/seap-q1/definition",
+    "text": "A risk is a possible future problem. Software teams find risks first, judge how bad each one is, then keep a written plan ready so nothing surprises them.",
+    "subjectId": "seap",
+    "qId": "seap-q1",
+    "clip": "definition"
+  },
+  {
+    "id": "seap/seap-q1/question",
+    "text": "Explain Risk Identification, Risk Assessment, and Risk Projection in software projects. How does the RMMM plan help in managing identified risks?",
+    "subjectId": "seap",
+    "qId": "seap-q1",
+    "clip": "question"
+  },
+  {
+    "id": "seap/seap-q1/mnemonic",
+    "text": "Danger Is Caught And Ranked, Risks Managed, Mitigated, Monitored, Controlled",
+    "subjectId": "seap",
+    "qId": "seap-q1",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "seap/seap-q1/idea_risk",
+    "text": "Risk. A risk is something that might go wrong later. It can hurt the time, the money or the quality of the project.",
+    "subjectId": "seap",
+    "qId": "seap-q1",
+    "clip": "idea_risk"
+  },
+  {
+    "id": "seap/seap-q1/idea_risk-id",
+    "text": "Risk Identification. This is the first step: list every risk you can think of. Checklists, brainstorming and lessons from old projects all help.",
+    "subjectId": "seap",
+    "qId": "seap-q1",
+    "clip": "idea_risk-id"
+  },
+  {
+    "id": "seap/seap-q1/idea_categories",
+    "text": "Risk Categories. Risks fall into groups: project risks like staff and schedule, technical risks like design, and business risks like budget and market.",
+    "subjectId": "seap",
+    "qId": "seap-q1",
+    "clip": "idea_categories"
+  },
+  {
+    "id": "seap/seap-q1/idea_risk-assess",
+    "text": "Risk Assessment. For each risk you judge two things: how likely it is, and how much damage it would do. A probability and impact table is a usual way to do this.",
+    "subjectId": "seap",
+    "qId": "seap-q1",
+    "clip": "idea_risk-assess"
+  },
+  {
+    "id": "seap/seap-q1/idea_risk-proj",
+    "text": "Risk Projection. Next you work out the risk exposure, which is probability times impact. That single number lets you compare risks fairly.",
+    "subjectId": "seap",
+    "qId": "seap-q1",
+    "clip": "idea_risk-proj"
+  },
+  {
+    "id": "seap/seap-q1/idea_ranking",
+    "text": "Risk Ranking. Sort the risk list by exposure, biggest first. Now you know which few risks deserve your time and money.",
+    "subjectId": "seap",
+    "qId": "seap-q1",
+    "clip": "idea_ranking"
+  },
+  {
+    "id": "seap/seap-q1/idea_rmmm",
+    "text": "RMMM. RMMM stands for Risk Mitigation, Monitoring and Management. It is the written plan that deals with every top risk you found.",
+    "subjectId": "seap",
+    "qId": "seap-q1",
+    "clip": "idea_rmmm"
+  },
+  {
+    "id": "seap/seap-q1/idea_mitigation",
+    "text": "Mitigation. Take action now to lower the chance or the damage. Example: train a second person on the risky module.",
+    "subjectId": "seap",
+    "qId": "seap-q1",
+    "clip": "idea_mitigation"
+  },
+  {
+    "id": "seap/seap-q1/idea_monitoring",
+    "text": "Monitoring. Keep watching for warning signs, called triggers. You want to see the risk coming while you can still do something.",
+    "subjectId": "seap",
+    "qId": "seap-q1",
+    "clip": "idea_monitoring"
+  },
+  {
+    "id": "seap/seap-q1/idea_contingency",
+    "text": "Contingency Plan. If the risk does happen you already have plan B ready: extra staff, extra budget or a backup server.",
+    "subjectId": "seap",
+    "qId": "seap-q1",
+    "clip": "idea_contingency"
+  },
+  {
+    "id": "seap/seap-q2/analogy",
+    "text": "Keeping a recipe box. Every recipe card is numbered, you keep one clean master copy, and no card changes without asking the person in charge first.",
+    "subjectId": "seap",
+    "qId": "seap-q2",
+    "clip": "analogy"
+  },
+  {
+    "id": "seap/seap-q2/definition",
+    "text": "SCM is the discipline of tracking and controlling every change to a software product. It keeps the work consistent and lets anyone see who changed what, and when.",
+    "subjectId": "seap",
+    "qId": "seap-q2",
+    "clip": "definition"
+  },
+  {
+    "id": "seap/seap-q2/question",
+    "text": "What is Software Configuration Management (SCM)? Explain SCM repositories and the major activities involved in the SCM process.",
+    "subjectId": "seap",
+    "qId": "seap-q2",
+    "clip": "question"
+  },
+  {
+    "id": "seap/seap-q2/mnemonic",
+    "text": "Smart Code Builders Keep Indexed Versions, Changes Checked, Audits Saved",
+    "subjectId": "seap",
+    "qId": "seap-q2",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "seap/seap-q2/idea_scm",
+    "text": "SCM. SCM means keeping track of every change made to the software and controlling who may make it. Without it the project quickly gets confused.",
+    "subjectId": "seap",
+    "qId": "seap-q2",
+    "clip": "idea_scm"
+  },
+  {
+    "id": "seap/seap-q2/idea_ci",
+    "text": "Configuration Item (CI). A configuration item is anything under SCM control: source code, documents, test cases, scripts, even the hardware list.",
+    "subjectId": "seap",
+    "qId": "seap-q2",
+    "clip": "idea_ci"
+  },
+  {
+    "id": "seap/seap-q2/idea_baseline",
+    "text": "Baseline. A baseline is a snapshot everyone has agreed on. You cannot quietly change it, you must go through change control.",
+    "subjectId": "seap",
+    "qId": "seap-q2",
+    "clip": "idea_baseline"
+  },
+  {
+    "id": "seap/seap-q2/idea_repo",
+    "text": "Repository. The repository is the one central store where all configuration items and every version of them are kept, with access control.",
+    "subjectId": "seap",
+    "qId": "seap-q2",
+    "clip": "idea_repo"
+  },
+  {
+    "id": "seap/seap-q2/idea_identify",
+    "text": "Configuration Identification. This activity decides which items are configuration items and when a baseline is marked. Naming and numbering each item matters.",
+    "subjectId": "seap",
+    "qId": "seap-q2",
+    "clip": "idea_identify"
+  },
+  {
+    "id": "seap/seap-q2/idea_version",
+    "text": "Version Control. Version control keeps every version and lets you branch, merge and roll back to an earlier version when something goes wrong.",
+    "subjectId": "seap",
+    "qId": "seap-q2",
+    "clip": "idea_version"
+  },
+  {
+    "id": "seap/seap-q2/idea_change",
+    "text": "Change Control. No change happens on a whim. The flow is: request, study the impact, get approval, make the change, then verify it.",
+    "subjectId": "seap",
+    "qId": "seap-q2",
+    "clip": "idea_change"
+  },
+  {
+    "id": "seap/seap-q2/idea_ccb",
+    "text": "Change Control Board (CCB). The CCB is the small group that reviews each request and simply says yes or no. It is the gatekeeper for every change.",
+    "subjectId": "seap",
+    "qId": "seap-q2",
+    "clip": "idea_ccb"
+  },
+  {
+    "id": "seap/seap-q2/idea_audit",
+    "text": "Audit (FCA and PCA). An audit checks the change was really done properly. FCA checks it works as asked, PCA checks the paperwork and files are right.",
+    "subjectId": "seap",
+    "qId": "seap-q2",
+    "clip": "idea_audit"
+  },
+  {
+    "id": "seap/seap-q2/idea_status",
+    "text": "Status Accounting. Status accounting records what changed, who changed it and when. That record is the trail you follow later.",
+    "subjectId": "seap",
+    "qId": "seap-q2",
+    "clip": "idea_status"
+  },
+  {
+    "id": "seap/seap-q3/analogy",
+    "text": "Checking a car before the drive. You test one switch, then the dashboard and the engine together, then the whole car on the road, and finally let the buyer take it for a spin.",
+    "subjectId": "seap",
+    "qId": "seap-q3",
+    "clip": "analogy"
+  },
+  {
+    "id": "seap/seap-q3/definition",
+    "text": "Testing grows in size. Small pieces are checked alone, then together, then the whole product, and finally the customer decides whether it is good enough.",
+    "subjectId": "seap",
+    "qId": "seap-q3",
+    "clip": "definition"
+  },
+  {
+    "id": "seap/seap-q3/question",
+    "text": "Explain the different levels of software testing: Unit Testing, Integration Testing, System Testing, and Acceptance Testing. Give a suitable example for each.",
+    "subjectId": "seap",
+    "qId": "seap-q3",
+    "clip": "question"
+  },
+  {
+    "id": "seap/seap-q3/mnemonic",
+    "text": "Level Up Small Items, Arrange System, Acceptance, Alpha, Beta, Early",
+    "subjectId": "seap",
+    "qId": "seap-q3",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "seap/seap-q3/idea_levels",
+    "text": "Levels of Testing. Testing is done in levels. Each level looks at a bigger piece of the software than the one before it.",
+    "subjectId": "seap",
+    "qId": "seap-q3",
+    "clip": "idea_levels"
+  },
+  {
+    "id": "seap/seap-q3/idea_unit",
+    "text": "Unit Testing. Test one small piece on its own. Example: check that a login function rejects a wrong password.",
+    "subjectId": "seap",
+    "qId": "seap-q3",
+    "clip": "idea_unit"
+  },
+  {
+    "id": "seap/seap-q3/idea_stub",
+    "text": "Stubs and Drivers. While testing a piece alone you stand in for its missing neighbours. A stub is a fake above it, a driver pushes into it from below.",
+    "subjectId": "seap",
+    "qId": "seap-q3",
+    "clip": "idea_stub"
+  },
+  {
+    "id": "seap/seap-q3/idea_integration",
+    "text": "Integration Testing. Check that two pieces work together properly at their interface. Example: login plus the database returns the right user.",
+    "subjectId": "seap",
+    "qId": "seap-q3",
+    "clip": "idea_integration"
+  },
+  {
+    "id": "seap/seap-q3/idea_approach",
+    "text": "Top-down, Bottom-up, Sandwich. You can join pieces from the top down using stubs, from the bottom up using drivers, or sandwich style using both.",
+    "subjectId": "seap",
+    "qId": "seap-q3",
+    "clip": "idea_approach"
+  },
+  {
+    "id": "seap/seap-q3/idea_system",
+    "text": "System Testing. Test the whole finished product from the outside, including speed and security. Example: the full checkout flow from cart to payment.",
+    "subjectId": "seap",
+    "qId": "seap-q3",
+    "clip": "idea_system"
+  },
+  {
+    "id": "seap/seap-q3/idea_acceptance",
+    "text": "Acceptance Testing. The customer tries the system and checks it fits the real need. They sign off at the end, then it is accepted.",
+    "subjectId": "seap",
+    "qId": "seap-q3",
+    "clip": "idea_acceptance"
+  },
+  {
+    "id": "seap/seap-q3/idea_alpha",
+    "text": "Alpha Testing. Alpha testing is done in house by the development team themselves, before anybody outside the company sees it.",
+    "subjectId": "seap",
+    "qId": "seap-q3",
+    "clip": "idea_alpha"
+  },
+  {
+    "id": "seap/seap-q3/idea_beta",
+    "text": "Beta Testing. Beta testing is done by real users out in the real world, before the final launch and with real data.",
+    "subjectId": "seap",
+    "qId": "seap-q3",
+    "clip": "idea_beta"
+  },
+  {
+    "id": "seap/seap-q3/idea_early",
+    "text": "Test Early and Cheap. Always move from the smallest piece to the largest. A bug found now costs far less to fix than one found at the end.",
+    "subjectId": "seap",
+    "qId": "seap-q3",
+    "clip": "idea_early"
+  },
+  {
+    "id": "seap/seap-q6/analogy",
+    "text": "Quality control in a kitchen. You set the rules, check the cooks follow them, taste every dish, and write down how many burnt dishes you get each week.",
+    "subjectId": "seap",
+    "qId": "seap-q6",
+    "clip": "analogy"
+  },
+  {
+    "id": "seap/seap-q6/definition",
+    "text": "SQA is the umbrella activity that makes sure the software and the way it was built meet agreed standards. It is about improving the process, not only testing at the end.",
+    "subjectId": "seap",
+    "qId": "seap-q6",
+    "clip": "definition"
+  },
+  {
+    "id": "seap/seap-q6/question",
+    "text": "Explain the major tasks of Software Quality Assurance (SQA). What is an SQA plan, and what role do software metrics play in quality management?",
+    "subjectId": "seap",
+    "qId": "seap-q6",
+    "clip": "question"
+  },
+  {
+    "id": "seap/seap-q6/mnemonic",
+    "text": "Set Standards, Practice Independence, Review Defects, Plan, Prioritise, Prove, Deliver",
+    "subjectId": "seap",
+    "qId": "seap-q6",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "seap/seap-q6/idea_sqa",
+    "text": "SQA. SQA means Software Quality Assurance. It is a planned activity that makes sure the product and the process match agreed standards.",
+    "subjectId": "seap",
+    "qId": "seap-q6",
+    "clip": "idea_sqa"
+  },
+  {
+    "id": "seap/seap-q6/idea_standards",
+    "text": "Standards. SQA writes down the coding and documentation standards, then checks that the team really follows them.",
+    "subjectId": "seap",
+    "qId": "seap-q6",
+    "clip": "idea_standards"
+  },
+  {
+    "id": "seap/seap-q6/idea_prevention",
+    "text": "Prevention. Good quality is built in from the start. Testing at the end only finds problems, it cannot stop them.",
+    "subjectId": "seap",
+    "qId": "seap-q6",
+    "clip": "idea_prevention"
+  },
+  {
+    "id": "seap/seap-q6/idea_independence",
+    "text": "Independence. The SQA group should report to management, not to the developers. That way its checks stay honest.",
+    "subjectId": "seap",
+    "qId": "seap-q6",
+    "clip": "idea_independence"
+  },
+  {
+    "id": "seap/seap-q6/idea_reviews",
+    "text": "Reviews and Audits. SQA joins the formal reviews and audits, and watches the defect count over time to see if quality is really improving.",
+    "subjectId": "seap",
+    "qId": "seap-q6",
+    "clip": "idea_reviews"
+  },
+  {
+    "id": "seap/seap-q6/idea_defects",
+    "text": "Defect Tracking. Every bug goes into one list with its status and owner. That list is the proof of what SQA is doing.",
+    "subjectId": "seap",
+    "qId": "seap-q6",
+    "clip": "idea_defects"
+  },
+  {
+    "id": "seap/seap-q6/idea_plan",
+    "text": "SQA Plan. The SQA plan says which standards apply, who does what, on what dates, which tools are used and how problems are escalated.",
+    "subjectId": "seap",
+    "qId": "seap-q6",
+    "clip": "idea_plan"
+  },
+  {
+    "id": "seap/seap-q6/idea_product-metrics",
+    "text": "Product Metrics. Product metrics measure the finished software: defects per module, mean time to failure, and reliability.",
+    "subjectId": "seap",
+    "qId": "seap-q6",
+    "clip": "idea_product-metrics"
+  },
+  {
+    "id": "seap/seap-q6/idea_process-metrics",
+    "text": "Process Metrics. Process metrics measure how the team works: how many review comments were useful, and how much the schedule slipped.",
+    "subjectId": "seap",
+    "qId": "seap-q6",
+    "clip": "idea_process-metrics"
+  },
+  {
+    "id": "seap/seap-q6/idea_dre",
+    "text": "Defect Removal Efficiency. DRE is the defects found before delivery divided by all defects. We want this close to one, because early defects are cheap ones.",
+    "subjectId": "seap",
+    "qId": "seap-q6",
+    "clip": "idea_dre"
+  },
+  {
+    "id": "seap/seap-q8/analogy",
+    "text": "Keeping an old car on the road. You fix the leaking pipe, move it to the new fuel pump, tune it so it does not break next month, and add a nicer dashboard.",
+    "subjectId": "seap",
+    "qId": "seap-q8",
+    "clip": "analogy"
+  },
+  {
+    "id": "seap/seap-q8/definition",
+    "text": "Maintenance is any change made to software after delivery. Four kinds cover almost all of it: fixing, adapting, improving and preventing.",
+    "subjectId": "seap",
+    "qId": "seap-q8",
+    "clip": "definition"
+  },
+  {
+    "id": "seap/seap-q8/question",
+    "text": "Explain the four types of software maintenance: Corrective, Adaptive, Preventive, and Perfective. Provide one example of each.",
+    "subjectId": "seap",
+    "qId": "seap-q8",
+    "clip": "question"
+  },
+  {
+    "id": "seap/seap-q8/mnemonic",
+    "text": "My Crew Always Prevents Problems, Secures Cash, Improves Things, Guards",
+    "subjectId": "seap",
+    "qId": "seap-q8",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "seap/seap-q8/idea_maint",
+    "text": "Maintenance. Maintenance is any change made to software after it has been handed over. It is what keeps the software working and worth using.",
+    "subjectId": "seap",
+    "qId": "seap-q8",
+    "clip": "idea_maint"
+  },
+  {
+    "id": "seap/seap-q8/idea_corrective",
+    "text": "Corrective Maintenance. You fix a bug that has already happened. Example: payments fail, so you repair the payment code.",
+    "subjectId": "seap",
+    "qId": "seap-q8",
+    "clip": "idea_corrective"
+  },
+  {
+    "id": "seap/seap-q8/idea_adaptive",
+    "text": "Adaptive Maintenance. You change the software so it fits a new environment. Example: making the app run on the newest phone operating system.",
+    "subjectId": "seap",
+    "qId": "seap-q8",
+    "clip": "idea_adaptive"
+  },
+  {
+    "id": "seap/seap-q8/idea_perfective",
+    "text": "Perfective Maintenance. You add new features or make it faster and nicer. Example: adding a dark mode option.",
+    "subjectId": "seap",
+    "qId": "seap-q8",
+    "clip": "idea_perfective"
+  },
+  {
+    "id": "seap/seap-q8/idea_preventive",
+    "text": "Preventive Maintenance. You clean up the code now so that bugs do not come later. Example: rewriting old messy code into clean code.",
+    "subjectId": "seap",
+    "qId": "seap-q8",
+    "clip": "idea_preventive"
+  },
+  {
+    "id": "seap/seap-q8/idea_share",
+    "text": "Perfective Takes the Largest Share. Most of the maintenance effort goes to perfective work, because users keep asking for more and more.",
+    "subjectId": "seap",
+    "qId": "seap-q8",
+    "clip": "idea_share"
+  },
+  {
+    "id": "seap/seap-q8/idea_cost",
+    "text": "Maintenance Cost. Most of the life cost of a software product is spent on maintenance, not on building it. So it has to be planned for.",
+    "subjectId": "seap",
+    "qId": "seap-q8",
+    "clip": "idea_cost"
+  },
+  {
+    "id": "seap/seap-q8/idea_impact",
+    "text": "Effect of Poor Maintenance. Skip maintenance and quality drops, bugs pile up, users leave, and every later change becomes harder.",
+    "subjectId": "seap",
+    "qId": "seap-q8",
+    "clip": "idea_impact"
+  },
+  {
+    "id": "seap/seap-q8/idea_techniques",
+    "text": "Safe Change Techniques. Use version control, regression tests and up to date documents, so one change does not quietly break old work.",
+    "subjectId": "seap",
+    "qId": "seap-q8",
+    "clip": "idea_techniques"
+  },
+  {
+    "id": "seap/seap-q8/idea_goal",
+    "text": "Goal of Maintenance. Keep the software correct, working and useful for as long as people need it, at the lowest sensible cost.",
+    "subjectId": "seap",
+    "qId": "seap-q8",
+    "clip": "idea_goal"
+  },
+  {
+    "id": "seap/seap-q10/analogy",
+    "text": "Cooking dinner for friends. You do not plan every dish three months ahead. You cook a bit, taste it, and change the next dish based on what people say.",
+    "subjectId": "seap",
+    "qId": "seap-q10",
+    "clip": "analogy"
+  },
+  {
+    "id": "seap/seap-q10/definition",
+    "text": "Agile is a mindset that values working software, people, customer partnership and change more than paperwork and rigid plans. It delivers value in short cycles with constant feedback.",
+    "subjectId": "seap",
+    "qId": "seap-q10",
+    "clip": "definition"
+  },
+  {
+    "id": "seap/seap-q10/question",
+    "text": "Explain the Agile Manifesto and its principles. How do Agile values differ from traditional plan-driven software development approaches?",
+    "subjectId": "seap",
+    "qId": "seap-q10",
+    "clip": "question"
+  },
+  {
+    "id": "seap/seap-q10/mnemonic",
+    "text": "All Ideas Work, Customers Change, Delightful Teams Chat Peacefully, Simply",
+    "subjectId": "seap",
+    "qId": "seap-q10",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "seap/seap-q10/idea_agile",
+    "text": "Agile. Agile means building in small steps and getting feedback fast, rather than following one big plan from start to finish.",
+    "subjectId": "seap",
+    "qId": "seap-q10",
+    "clip": "idea_agile"
+  },
+  {
+    "id": "seap/seap-q10/idea_value1",
+    "text": "Individuals and Interactions. The manifesto puts people talking to people above processes and tools. A tool that stops people talking is the wrong tool.",
+    "subjectId": "seap",
+    "qId": "seap-q10",
+    "clip": "idea_value1"
+  },
+  {
+    "id": "seap/seap-q10/idea_value2",
+    "text": "Working Software. Working software is valued more than heavy documentation. A build that actually runs is the proof, not a thick file.",
+    "subjectId": "seap",
+    "qId": "seap-q10",
+    "clip": "idea_value2"
+  },
+  {
+    "id": "seap/seap-q10/idea_value3",
+    "text": "Customer Collaboration. The customer is a partner, not someone you hand a finished product to at the very end.",
+    "subjectId": "seap",
+    "qId": "seap-q10",
+    "clip": "idea_value3"
+  },
+  {
+    "id": "seap/seap-q10/idea_value4",
+    "text": "Responding to Change. Changing requirements are welcome, even late in the project. Change is treated as a competitive advantage, not a problem.",
+    "subjectId": "seap",
+    "qId": "seap-q10",
+    "clip": "idea_value4"
+  },
+  {
+    "id": "seap/seap-q10/idea_p-delivery",
+    "text": "Early and Continuous Delivery. The top priority is useful software delivered early and often, every couple of weeks or months, with the shorter time preferred.",
+    "subjectId": "seap",
+    "qId": "seap-q10",
+    "clip": "idea_p-delivery"
+  },
+  {
+    "id": "seap/seap-q10/idea_p-team",
+    "text": "Motivated, Self-Organising Teams. Agile teams are small, motivated and self-organising. Give them support and trust, and they decide the work themselves.",
+    "subjectId": "seap",
+    "qId": "seap-q10",
+    "clip": "idea_p-team"
+  },
+  {
+    "id": "seap/seap-q10/idea_p-comm",
+    "text": "Face-to-Face Communication. Talking directly is the best way to share information. Developers and business people work together daily, face to face.",
+    "subjectId": "seap",
+    "qId": "seap-q10",
+    "clip": "idea_p-comm"
+  },
+  {
+    "id": "seap/seap-q10/idea_p-pace",
+    "text": "Sustainable Development and Reflection. Keep a steady pace you can hold forever, with no all-night cramming. At regular intervals the team tunes how it works.",
+    "subjectId": "seap",
+    "qId": "seap-q10",
+    "clip": "idea_p-pace"
+  },
+  {
+    "id": "seap/seap-q10/idea_p-simple",
+    "text": "Simplicity and Self-Organising Design. Do the least work that still works, since work not done is the real saving. Good architecture and design grow from the team, and working software shows the progress.",
+    "subjectId": "seap",
+    "qId": "seap-q10",
+    "clip": "idea_p-simple"
+  },
+  {
+    "id": "seap/seap-q11/analogy",
+    "text": "A kitchen brigade on a service. One chef orders the dishes, one keeps everyone unblocked, the cooks make the food, and every few minutes they call out what is happening.",
+    "subjectId": "seap",
+    "qId": "seap-q11",
+    "clip": "analogy"
+  },
+  {
+    "id": "seap/seap-q11/definition",
+    "text": "Scrum is an Agile framework with three roles, three artifacts and five events. Every Sprint, of one to four weeks, the team produces a usable Increment.",
+    "subjectId": "seap",
+    "qId": "seap-q11",
+    "clip": "definition"
+  },
+  {
+    "id": "seap/seap-q11/question",
+    "text": "Explain the Scrum framework, including its roles, artifacts, and events. Describe how a Scrum team uses these elements during a Sprint.",
+    "subjectId": "seap",
+    "qId": "seap-q11",
+    "clip": "question"
+  },
+  {
+    "id": "seap/seap-q11/mnemonic",
+    "text": "Scrum People Share, Develop Plans, Sprint Increment, Plan Daily, Reflect",
+    "subjectId": "seap",
+    "qId": "seap-q11",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "seap/seap-q11/idea_scrum",
+    "text": "Scrum. Scrum is a way of working where the team ships usable software at the end of every Sprint. A Sprint is time-boxed, usually one to four weeks.",
+    "subjectId": "seap",
+    "qId": "seap-q11",
+    "clip": "idea_scrum"
+  },
+  {
+    "id": "seap/seap-q11/idea_po",
+    "text": "Product Owner. One person owns the Product Backlog and decides what gets built first and why. This is the only decision maker for value.",
+    "subjectId": "seap",
+    "qId": "seap-q11",
+    "clip": "idea_po"
+  },
+  {
+    "id": "seap/seap-q11/idea_sm",
+    "text": "Scrum Master. The Scrum Master clears blockers and keeps the process healthy. They do not order the work and do not manage the team.",
+    "subjectId": "seap",
+    "qId": "seap-q11",
+    "clip": "idea_sm"
+  },
+  {
+    "id": "seap/seap-q11/idea_dev",
+    "text": "Developers. The developers decide how to build it and organise themselves. They turn backlog items into a working Increment.",
+    "subjectId": "seap",
+    "qId": "seap-q11",
+    "clip": "idea_dev"
+  },
+  {
+    "id": "seap/seap-q11/idea_product-backlog",
+    "text": "Product Backlog. The ordered list of everything wanted in the product. It is never finished, only re-ordered as priorities change.",
+    "subjectId": "seap",
+    "qId": "seap-q11",
+    "clip": "idea_product-backlog"
+  },
+  {
+    "id": "seap/seap-q11/idea_sprint-backlog",
+    "text": "Sprint Backlog. The slice the team picked for this Sprint, plus the Sprint Goal and the plan for coming days.",
+    "subjectId": "seap",
+    "qId": "seap-q11",
+    "clip": "idea_sprint-backlog"
+  },
+  {
+    "id": "seap/seap-q11/idea_increment",
+    "text": "Increment. The usable slice of product added at the end of the Sprint. It must meet the Definition of Done to count as done.",
+    "subjectId": "seap",
+    "qId": "seap-q11",
+    "clip": "idea_increment"
+  },
+  {
+    "id": "seap/seap-q11/idea_planning",
+    "text": "Sprint Planning. At the start of the Sprint the team picks items from the backlog and agrees what it can realistically finish.",
+    "subjectId": "seap",
+    "qId": "seap-q11",
+    "clip": "idea_planning"
+  },
+  {
+    "id": "seap/seap-q11/idea_daily",
+    "text": "Daily Scrum. Fifteen minutes every day to say what was done, what is next and what is in the way. Same time, same place.",
+    "subjectId": "seap",
+    "qId": "seap-q11",
+    "clip": "idea_daily"
+  },
+  {
+    "id": "seap/seap-q11/idea_review-retro",
+    "text": "Sprint Review and Retrospective. The Review shows the working product to the customer and takes feedback. The Retrospective looks at how the team worked and improves it.",
+    "subjectId": "seap",
+    "qId": "seap-q11",
+    "clip": "idea_review-retro"
+  },
+  {
+    "id": "seap/seap-q15/analogy",
+    "text": "A restaurant that cooks and serves together. The cook who made the dish walks out to the table, and the security guard checks the recipe at the start instead of at the door.",
+    "subjectId": "seap",
+    "qId": "seap-q15",
+    "clip": "analogy"
+  },
+  {
+    "id": "seap/seap-q15/definition",
+    "text": "DevOps joins development and operations so software ships continuously. DevSecOps and the SSDLC make security a shared, built-in part of every stage instead of a final gate.",
+    "subjectId": "seap",
+    "qId": "seap-q15",
+    "clip": "definition"
+  },
+  {
+    "id": "seap/seap-q15/question",
+    "text": "Explain the DevOps lifecycle and the concept of DevSecOps. How does Secure Software Development Lifecycle (SSDLC) integrate security throughout software development and delivery?",
+    "subjectId": "seap",
+    "qId": "seap-q15",
+    "clip": "question"
+  },
+  {
+    "id": "seap/seap-q15/mnemonic",
+    "text": "Develop Life Cycles Continue, Integrate, Monitor, Detect, Secure, Support, Perfect",
+    "subjectId": "seap",
+    "qId": "seap-q15",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "seap/seap-q15/idea_devops",
+    "text": "DevOps. DevOps joins development and operations into one team. The wall between writing the code and running it comes down.",
+    "subjectId": "seap",
+    "qId": "seap-q15",
+    "clip": "idea_devops"
+  },
+  {
+    "id": "seap/seap-q15/idea_lifecycle",
+    "text": "DevOps Lifecycle. Work flows around a loop: plan, code, build, test, release, deploy, operate, monitor, and then back to plan with what you learned.",
+    "subjectId": "seap",
+    "qId": "seap-q15",
+    "clip": "idea_lifecycle"
+  },
+  {
+    "id": "seap/seap-q15/idea_ci",
+    "text": "Continuous Integration (CI). Developers push their code to the shared branch often, and an automated build and test runs on every push.",
+    "subjectId": "seap",
+    "qId": "seap-q15",
+    "clip": "idea_ci"
+  },
+  {
+    "id": "seap/seap-q15/idea_cd",
+    "text": "Continuous Delivery / Deployment. Every build that passes tests can go live quickly and safely, either automatically or with one click.",
+    "subjectId": "seap",
+    "qId": "seap-q15",
+    "clip": "idea_cd"
+  },
+  {
+    "id": "seap/seap-q15/idea_iac",
+    "text": "Infrastructure as Code (IaC). Servers and setup are described in versioned text files instead of being hand-clicked, so infrastructure is repeatable and reviewable.",
+    "subjectId": "seap",
+    "qId": "seap-q15",
+    "clip": "idea_iac"
+  },
+  {
+    "id": "seap/seap-q15/idea_monitoring",
+    "text": "Monitoring and Feedback. Logs, metrics and alerts from the live system go straight back to the developers, so problems are seen while they are still small.",
+    "subjectId": "seap",
+    "qId": "seap-q15",
+    "clip": "idea_monitoring"
+  },
+  {
+    "id": "seap/seap-q15/idea_devsecops",
+    "text": "DevSecOps. Security is not a final check by a separate team. Everyone owns security, and the security tools sit right inside the pipeline.",
+    "subjectId": "seap",
+    "qId": "seap-q15",
+    "clip": "idea_devsecops"
+  },
+  {
+    "id": "seap/seap-q15/idea_shift-left",
+    "text": "Shift Left. Security moves to the early part of the work instead of the end. A hole found before launch costs far less to close.",
+    "subjectId": "seap",
+    "qId": "seap-q15",
+    "clip": "idea_shift-left"
+  },
+  {
+    "id": "seap/seap-q15/idea_ssdlc",
+    "text": "SSDLC. The SSDLC is a secure software development life cycle. Security activities are built into every stage, from design through to deployment.",
+    "subjectId": "seap",
+    "qId": "seap-q15",
+    "clip": "idea_ssdlc"
+  },
+  {
+    "id": "seap/seap-q15/idea_practices",
+    "text": "Security Practices. In practice this means threat modelling, SAST and DAST scans, dependency checks, and a security-minded code review.",
+    "subjectId": "seap",
+    "qId": "seap-q15",
+    "clip": "idea_practices"
+  },
+  {
+    "id": "web/web-q1/analogy",
+    "text": "A pin board, not a table. SQL is a table with fixed rows and columns. MongoDB is a wall of paper notes: every note can look different, and you pin up a new one whenever you like.",
+    "subjectId": "web",
+    "qId": "web-q1",
+    "clip": "analogy"
+  },
+  {
+    "id": "web/web-q1/definition",
+    "text": "MongoDB is a database that keeps data as separate documents instead of tables and rows. Node.js connects to it using a driver, so your JavaScript app can read and write those documents.",
+    "subjectId": "web",
+    "qId": "web-q1",
+    "clip": "definition"
+  },
+  {
+    "id": "web/web-q1/question",
+    "text": "What is MongoDB? Describe the connection between MongoDB and Node.js.",
+    "subjectId": "web",
+    "qId": "web-q1",
+    "clip": "question"
+  },
+  {
+    "id": "web/web-q1/mnemonic",
+    "text": "Node Dumps Collections, Bytes Packed, Data Cached, Memory And Speed",
+    "subjectId": "web",
+    "qId": "web-q1",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "web/web-q1/idea_nosql",
+    "text": "NoSQL. MongoDB is a NoSQL database. That means it does not force your data into fixed tables and rows the way MySQL does.",
+    "subjectId": "web",
+    "qId": "web-q1",
+    "clip": "idea_nosql"
+  },
+  {
+    "id": "web/web-q1/idea_document",
+    "text": "Document. Data is kept as separate documents. Each one looks like a JSON object made of key and value pairs.",
+    "subjectId": "web",
+    "qId": "web-q1",
+    "clip": "idea_document"
+  },
+  {
+    "id": "web/web-q1/idea_collection",
+    "text": "Collection. Documents of the same kind sit together in a collection. A collection is like a table, but its rows are documents.",
+    "subjectId": "web",
+    "qId": "web-q1",
+    "clip": "idea_collection"
+  },
+  {
+    "id": "web/web-q1/idea_bson",
+    "text": "BSON. BSON is the format MongoDB saves documents in. It is a compact binary form of JSON and can hold text, numbers, arrays and nested objects.",
+    "subjectId": "web",
+    "qId": "web-q1",
+    "clip": "idea_bson"
+  },
+  {
+    "id": "web/web-q1/idea_port",
+    "text": "Port 27017. MongoDB runs as a service and waits for work on port 27017. Your code points at that port to reach it.",
+    "subjectId": "web",
+    "qId": "web-q1",
+    "clip": "idea_port"
+  },
+  {
+    "id": "web/web-q1/idea_driver",
+    "text": "MongoDB Driver. Node.js talks to MongoDB through the official driver. Add it to your project with npm install mongodb.",
+    "subjectId": "web",
+    "qId": "web-q1",
+    "clip": "idea_driver"
+  },
+  {
+    "id": "web/web-q1/idea_url",
+    "text": "Connection String. You pass a connection string such as mongodb://localhost:27017 to the connect function, and that opens the link to the database.",
+    "subjectId": "web",
+    "qId": "web-q1",
+    "clip": "idea_url"
+  },
+  {
+    "id": "web/web-q1/idea_mongoose",
+    "text": "Mongoose. Mongoose is an ODM, a layer that sits on MongoDB and adds schemas and validation, so your data stays clean.",
+    "subjectId": "web",
+    "qId": "web-q1",
+    "clip": "idea_mongoose"
+  },
+  {
+    "id": "web/web-q1/idea_async",
+    "text": "Asynchronous. Database calls take time, so Node does not sit and wait. Use await or a callback to pick up the answer when it arrives.",
+    "subjectId": "web",
+    "qId": "web-q1",
+    "clip": "idea_async"
+  },
+  {
+    "id": "web/web-q1/idea_scale",
+    "text": "Scalability. Sharding spreads the data over many machines so it can grow. Replication keeps extra copies, so nothing is lost.",
+    "subjectId": "web",
+    "qId": "web-q1",
+    "clip": "idea_scale"
+  },
+  {
+    "id": "web/web-q2/analogy",
+    "text": "The four jobs of a librarian. Creating is pinning up a new note. Reading is finding a note you want. Updating is correcting it. Deleting is throwing it away. CRUD is only those four jobs.",
+    "subjectId": "web",
+    "qId": "web-q2",
+    "clip": "analogy"
+  },
+  {
+    "id": "web/web-q2/definition",
+    "text": "CRUD is the four basic jobs you do on any database: create new data, read it, update it and delete it. In MongoDB each job has its own method call.",
+    "subjectId": "web",
+    "qId": "web-q2",
+    "clip": "definition"
+  },
+  {
+    "id": "web/web-q2/question",
+    "text": "Describe CRUD operations with example.",
+    "subjectId": "web",
+    "qId": "web-q2",
+    "clip": "question"
+  },
+  {
+    "id": "web/web-q2/mnemonic",
+    "text": "Create Read Update Delete, Filter, Insert Find Update Delete, Await",
+    "subjectId": "web",
+    "qId": "web-q2",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "web/web-q2/idea_create",
+    "text": "Create. Create puts new data in. Use insertOne for a single document or insertMany for a whole list at once.",
+    "subjectId": "web",
+    "qId": "web-q2",
+    "clip": "idea_create"
+  },
+  {
+    "id": "web/web-q2/idea_read",
+    "text": "Read. Read gets data back. find returns many matching documents, findOne returns only the first match.",
+    "subjectId": "web",
+    "qId": "web-q2",
+    "clip": "idea_read"
+  },
+  {
+    "id": "web/web-q2/idea_update",
+    "text": "Update. Update changes data that is already stored. updateOne changes a single document, updateMany changes every match.",
+    "subjectId": "web",
+    "qId": "web-q2",
+    "clip": "idea_update"
+  },
+  {
+    "id": "web/web-q2/idea_delete",
+    "text": "Delete. Delete removes data. deleteOne takes out one document and deleteMany takes out every match.",
+    "subjectId": "web",
+    "qId": "web-q2",
+    "clip": "idea_delete"
+  },
+  {
+    "id": "web/web-q2/idea_filter",
+    "text": "Filter. Every call needs a filter, a small object that tells Mongo which document you mean, for example { name: \"Asha\" }.",
+    "subjectId": "web",
+    "qId": "web-q2",
+    "clip": "idea_filter"
+  },
+  {
+    "id": "web/web-q2/idea_create-example",
+    "text": "insertOne(). Create example: await col.insertOne({ name: \"Asha\", marks: 90 }); adds one new document.",
+    "subjectId": "web",
+    "qId": "web-q2",
+    "clip": "idea_create-example"
+  },
+  {
+    "id": "web/web-q2/idea_read-example",
+    "text": "find(). Read example: await col.find({}).toArray(); with an empty filter it brings back every document.",
+    "subjectId": "web",
+    "qId": "web-q2",
+    "clip": "idea_read-example"
+  },
+  {
+    "id": "web/web-q2/idea_update-example",
+    "text": "updateOne(). Update example: await col.updateOne({ name: \"Asha\" }, { $set: { marks: 95 } }); changes only the marks field.",
+    "subjectId": "web",
+    "qId": "web-q2",
+    "clip": "idea_update-example"
+  },
+  {
+    "id": "web/web-q2/idea_delete-example",
+    "text": "deleteOne(). Delete example: await col.deleteOne({ name: \"Asha\" }); removes her single record from the collection.",
+    "subjectId": "web",
+    "qId": "web-q2",
+    "clip": "idea_delete-example"
+  },
+  {
+    "id": "web/web-q2/idea_await",
+    "text": "Await. CRUD calls are asynchronous, so put await in front of each one. Without it you print the answer before it has arrived.",
+    "subjectId": "web",
+    "qId": "web-q2",
+    "clip": "idea_await"
+  },
+  {
+    "id": "web/web-q3/analogy",
+    "text": "A recipe card. Each step is one line of a recipe: get the tools, write the dish, switch on the stove, then open the plate. Skip a line and the meal never comes.",
+    "subjectId": "web",
+    "qId": "web-q3",
+    "clip": "analogy"
+  },
+  {
+    "id": "web/web-q3/definition",
+    "text": "A Node.js app is a JavaScript file that starts a server and answers a request with plain text. To get Hello World you install Node, write a few lines, run the file and open localhost:3000.",
+    "subjectId": "web",
+    "qId": "web-q3",
+    "clip": "definition"
+  },
+  {
+    "id": "web/web-q3/question",
+    "text": "Write a stepwise process to create an app using Node.js to print 'Hello World'.",
+    "subjectId": "web",
+    "qId": "web-q3",
+    "clip": "question"
+  },
+  {
+    "id": "web/web-q3/mnemonic",
+    "text": "Install, Verify, Init, File, Require, Server, Reply, Listen, Run, Open",
+    "subjectId": "web",
+    "qId": "web-q3",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "web/web-q3/idea_install-node",
+    "text": "Install Node.js. First download Node.js from nodejs.org and install it on your machine. Node also brings the npm package manager with it.",
+    "subjectId": "web",
+    "qId": "web-q3",
+    "clip": "idea_install-node"
+  },
+  {
+    "id": "web/web-q3/idea_verify",
+    "text": "node -v and npm -v. Open the terminal and run node -v and npm -v. Both should print a version number, which proves the install worked.",
+    "subjectId": "web",
+    "qId": "web-q3",
+    "clip": "idea_verify"
+  },
+  {
+    "id": "web/web-q3/idea_init",
+    "text": "npm init -y. Inside your project folder run npm init -y. It creates a package.json file with all the default settings filled in.",
+    "subjectId": "web",
+    "qId": "web-q3",
+    "clip": "idea_init"
+  },
+  {
+    "id": "web/web-q3/idea_create-file",
+    "text": "app.js. Create a file named app.js in that folder. This single file is your whole program, the entry point Node will run.",
+    "subjectId": "web",
+    "qId": "web-q3",
+    "clip": "idea_create-file"
+  },
+  {
+    "id": "web/web-q3/idea_require",
+    "text": "require(). Load the built-in http module with const http = require(\"http\"); so you have a server to build on.",
+    "subjectId": "web",
+    "qId": "web-q3",
+    "clip": "idea_require"
+  },
+  {
+    "id": "web/web-q3/idea_create-server",
+    "text": "http.createServer(). Call http.createServer with a function. Node runs that function every single time a request arrives.",
+    "subjectId": "web",
+    "qId": "web-q3",
+    "clip": "idea_create-server"
+  },
+  {
+    "id": "web/web-q3/idea_write-response",
+    "text": "res.end(). Inside the function set the header with res.writeHead(200) and send the words with res.end(\"Hello World\").",
+    "subjectId": "web",
+    "qId": "web-q3",
+    "clip": "idea_write-response"
+  },
+  {
+    "id": "web/web-q3/idea_listen",
+    "text": "server.listen(). Switch the server on with server.listen(3000). Using port 3000 means your page lives at localhost:3000.",
+    "subjectId": "web",
+    "qId": "web-q3",
+    "clip": "idea_listen"
+  },
+  {
+    "id": "web/web-q3/idea_run",
+    "text": "node app.js. Go back to the terminal and run node app.js. Your running message appears in the terminal.",
+    "subjectId": "web",
+    "qId": "web-q3",
+    "clip": "idea_run"
+  },
+  {
+    "id": "web/web-q3/idea_browser",
+    "text": "localhost:3000. Last step, open a browser and go to http://localhost:3000. Hello World is now on the page.",
+    "subjectId": "web",
+    "qId": "web-q3",
+    "clip": "idea_browser"
+  },
+  {
+    "id": "web/web-q4/analogy",
+    "text": "A chef with helpers. The chef keeps serving orders on one stove and never stands frozen. Slow jobs such as baking go to helpers at the back, and the moment a helper finishes, the chef serves it.",
+    "subjectId": "web",
+    "qId": "web-q4",
+    "clip": "analogy"
+  },
+  {
+    "id": "web/web-q4/definition",
+    "text": "The REPL is the place where you type one line at a time and Node runs it and shows the answer straight away. The Event Loop is the engine that keeps your JavaScript moving without waiting on slow jobs.",
+    "subjectId": "web",
+    "qId": "web-q4",
+    "clip": "definition"
+  },
+  {
+    "id": "web/web-q4/question",
+    "text": "Write a short note on REPL and Event Loop.",
+    "subjectId": "web",
+    "qId": "web-q4",
+    "clip": "question"
+  },
+  {
+    "id": "web/web-q4/mnemonic",
+    "text": "Real Engineers Program Little Robots, Execute Non-Blocking Logic, Print Carefully",
+    "subjectId": "web",
+    "qId": "web-q4",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "web/web-q4/idea_read",
+    "text": "Read. Read: the REPL waits at the > prompt and takes in whatever line you type there.",
+    "subjectId": "web",
+    "qId": "web-q4",
+    "clip": "idea_read"
+  },
+  {
+    "id": "web/web-q4/idea_eval",
+    "text": "Eval. Eval: it runs that line straight away inside Node, using the values that already exist in that session.",
+    "subjectId": "web",
+    "qId": "web-q4",
+    "clip": "idea_eval"
+  },
+  {
+    "id": "web/web-q4/idea_print",
+    "text": "Print. Print: the result appears on screen just below the prompt, so you can see the answer at once.",
+    "subjectId": "web",
+    "qId": "web-q4",
+    "clip": "idea_print"
+  },
+  {
+    "id": "web/web-q4/idea_loop",
+    "text": "Loop. Loop: it goes back to the start and waits for your next line. Press Ctrl+D or type .exit to leave.",
+    "subjectId": "web",
+    "qId": "web-q4",
+    "clip": "idea_loop"
+  },
+  {
+    "id": "web/web-q4/idea_start-repl",
+    "text": "REPL. To open the REPL, just type node in the terminal with no file name. It is handy for testing one line at a time.",
+    "subjectId": "web",
+    "qId": "web-q4",
+    "clip": "idea_start-repl"
+  },
+  {
+    "id": "web/web-q4/idea_event-loop",
+    "text": "Event Loop. The Event Loop is the engine that runs your JavaScript on one single thread, again and again, keeping the app alive.",
+    "subjectId": "web",
+    "qId": "web-q4",
+    "clip": "idea_event-loop"
+  },
+  {
+    "id": "web/web-q4/idea_non-blocking",
+    "text": "Non-blocking. Non-blocking means slow work never freezes the app. File and database jobs go to the background and control comes back at once.",
+    "subjectId": "web",
+    "qId": "web-q4",
+    "clip": "idea_non-blocking"
+  },
+  {
+    "id": "web/web-q4/idea_libuv",
+    "text": "libuv. libuv is the C library under Node that provides the event loop and a thread pool for the heavy work.",
+    "subjectId": "web",
+    "qId": "web-q4",
+    "clip": "idea_libuv"
+  },
+  {
+    "id": "web/web-q4/idea_phases",
+    "text": "Event Loop Phases. The loop walks through its phases in order: timers, pending callbacks, poll, check, and close callbacks.",
+    "subjectId": "web",
+    "qId": "web-q4",
+    "clip": "idea_phases"
+  },
+  {
+    "id": "web/web-q4/idea_callback",
+    "text": "Callback. A callback is the function that runs when the slow task is finished. That is how the result finds its way back to your code.",
+    "subjectId": "web",
+    "qId": "web-q4",
+    "clip": "idea_callback"
+  },
+  {
+    "id": "web/web-q5/analogy",
+    "text": "A receptionist with labelled doors. Express hangs a sign on every door. The method and path on a request tell you which door to open, and the code behind that door does the work for you.",
+    "subjectId": "web",
+    "qId": "web-q5",
+    "clip": "analogy"
+  },
+  {
+    "id": "web/web-q5/definition",
+    "text": "Express is a small framework that makes writing web servers in Node short and tidy. Routing is the part where you say which method and which path should call which function.",
+    "subjectId": "web",
+    "qId": "web-q5",
+    "clip": "definition"
+  },
+  {
+    "id": "web/web-q5/question",
+    "text": "Describe Express Routing. Explain the steps to install Express.js.",
+    "subjectId": "web",
+    "qId": "web-q5",
+    "clip": "question"
+  },
+  {
+    "id": "web/web-q5/mnemonic",
+    "text": "Every Request Stays Good, Paths Push Data, Params Inside Requests",
+    "subjectId": "web",
+    "qId": "web-q5",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "web/web-q5/idea_express",
+    "text": "Express.js. Express is a small web framework for Node.js. It sits on top of the http module and saves you a lot of typing.",
+    "subjectId": "web",
+    "qId": "web-q5",
+    "clip": "idea_express"
+  },
+  {
+    "id": "web/web-q5/idea_routing",
+    "text": "Routing. Routing means matching an HTTP method together with a path to the right handler function that does the work.",
+    "subjectId": "web",
+    "qId": "web-q5",
+    "clip": "idea_routing"
+  },
+  {
+    "id": "web/web-q5/idea_syntax",
+    "text": "Route Syntax. The shape of a route is app.METHOD(PATH, HANDLER). For example app.get(\"/about\", fn) sends the about page to a function.",
+    "subjectId": "web",
+    "qId": "web-q5",
+    "clip": "idea_syntax"
+  },
+  {
+    "id": "web/web-q5/idea_get",
+    "text": "app.get(). app.get() fetches data. Use it for reading, such as a page that shows a list of students.",
+    "subjectId": "web",
+    "qId": "web-q5",
+    "clip": "idea_get"
+  },
+  {
+    "id": "web/web-q5/idea_post",
+    "text": "app.post(). app.post() sends new data to the server. Use it to create something, like saving a filled form.",
+    "subjectId": "web",
+    "qId": "web-q5",
+    "clip": "idea_post"
+  },
+  {
+    "id": "web/web-q5/idea_put",
+    "text": "app.put(). app.put() changes a record that already exists, replacing it with the new values you send.",
+    "subjectId": "web",
+    "qId": "web-q5",
+    "clip": "idea_put"
+  },
+  {
+    "id": "web/web-q5/idea_delete",
+    "text": "app.delete(). app.delete() removes a resource. Once it runs, that record is gone from the database.",
+    "subjectId": "web",
+    "qId": "web-q5",
+    "clip": "idea_delete"
+  },
+  {
+    "id": "web/web-q5/idea_params",
+    "text": "req.params. A path like /user/:id has one moving part. Read it inside the handler as req.params.id.",
+    "subjectId": "web",
+    "qId": "web-q5",
+    "clip": "idea_params"
+  },
+  {
+    "id": "web/web-q5/idea_install",
+    "text": "Install Express. Install it in steps: npm init -y, then npm install express, then require(\"express\"), then app.listen(3000).",
+    "subjectId": "web",
+    "qId": "web-q5",
+    "clip": "idea_install"
+  },
+  {
+    "id": "web/web-q5/idea_reqres",
+    "text": "req and res. req carries what came in: params, query and body. res is how you reply, with res.send(), res.json() or res.status().",
+    "subjectId": "web",
+    "qId": "web-q5",
+    "clip": "idea_reqres"
+  },
+  {
+    "id": "web/web-q6/analogy",
+    "text": "A cafe with strict house rules. You ask for a dish by name, the waiter needs no long story every time, and yesterday's answer can be reused. These simple habits are what REST is.",
+    "subjectId": "web",
+    "qId": "web-q6",
+    "clip": "analogy"
+  },
+  {
+    "id": "web/web-q6/definition",
+    "text": "A REST API is a way of building web services where every piece of data has its own URL and the normal HTTP methods do the work. Six simple principles keep the design clean and easy to grow.",
+    "subjectId": "web",
+    "qId": "web-q6",
+    "clip": "definition"
+  },
+  {
+    "id": "web/web-q6/question",
+    "text": "What is REST API? What are the principles of REST API?",
+    "subjectId": "web",
+    "qId": "web-q6",
+    "clip": "question"
+  },
+  {
+    "id": "web/web-q6/mnemonic",
+    "text": "Real Clients Send Calls Using Layered Connections, Reading JSON Statuses",
+    "subjectId": "web",
+    "qId": "web-q6",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "web/web-q6/idea_rest",
+    "text": "REST. REST stands for Representational State Transfer. It is an architectural style, a set of rules for building APIs over HTTP.",
+    "subjectId": "web",
+    "qId": "web-q6",
+    "clip": "idea_rest"
+  },
+  {
+    "id": "web/web-q6/idea_client-server",
+    "text": "Client-Server. The client is the screen you use, the server holds the data. They are separate programs, so you can change one without breaking the other.",
+    "subjectId": "web",
+    "qId": "web-q6",
+    "clip": "idea_client-server"
+  },
+  {
+    "id": "web/web-q6/idea_stateless",
+    "text": "Stateless. Stateless means the server remembers nothing between requests. Every request carries everything it needs all by itself.",
+    "subjectId": "web",
+    "qId": "web-q6",
+    "clip": "idea_stateless"
+  },
+  {
+    "id": "web/web-q6/idea_cacheable",
+    "text": "Cacheable. A reply can be saved and used again instead of asking the server twice. That is caching, and it makes everything faster.",
+    "subjectId": "web",
+    "qId": "web-q6",
+    "clip": "idea_cacheable"
+  },
+  {
+    "id": "web/web-q6/idea_uniform",
+    "text": "Uniform Interface. Every resource uses the same small set of verbs: GET, POST, PUT, DELETE. Learn them once and use them everywhere.",
+    "subjectId": "web",
+    "qId": "web-q6",
+    "clip": "idea_uniform"
+  },
+  {
+    "id": "web/web-q6/idea_layered",
+    "text": "Layered System. The client cannot see what sits in between. There may be a load balancer or a proxy, and the client still works the same way.",
+    "subjectId": "web",
+    "qId": "web-q6",
+    "clip": "idea_layered"
+  },
+  {
+    "id": "web/web-q6/idea_code-on-demand",
+    "text": "Code on Demand (optional). This principle is optional. The server can send extra JavaScript to the client so it can do more work on its own.",
+    "subjectId": "web",
+    "qId": "web-q6",
+    "clip": "idea_code-on-demand"
+  },
+  {
+    "id": "web/web-q6/idea_resource",
+    "text": "Resource. Everything the API works on is a resource with its own URL, like /users/1 or /products.",
+    "subjectId": "web",
+    "qId": "web-q6",
+    "clip": "idea_resource"
+  },
+  {
+    "id": "web/web-q6/idea_json",
+    "text": "JSON. The body you send and the body you get back are usually JSON, plain text made of key and value pairs.",
+    "subjectId": "web",
+    "qId": "web-q6",
+    "clip": "idea_json"
+  },
+  {
+    "id": "web/web-q6/idea_status",
+    "text": "HTTP Status Codes. Reply with proper status codes: 200 for OK, 201 for Created, 404 for Not Found and 500 for server error.",
+    "subjectId": "web",
+    "qId": "web-q6",
+    "clip": "idea_status"
+  },
+  {
+    "id": "uiux/uiux-q1/analogy",
+    "text": "Think of cooking a new dish. You first find out who is eating and what they like. Then you write the problem down, try many recipes, cook a rough one, and let a friend taste it before cooking for everyone.",
+    "subjectId": "uiux",
+    "qId": "uiux-q1",
+    "clip": "analogy"
+  },
+  {
+    "id": "uiux/uiux-q1/definition",
+    "text": "Design thinking is a human-centred way of solving problems. You understand real users first, then design, build a model and test it with them.",
+    "subjectId": "uiux",
+    "qId": "uiux-q1",
+    "clip": "definition"
+  },
+  {
+    "id": "uiux/uiux-q1/question",
+    "text": "What is Design Thinking? What are the phases of Design Thinking?",
+    "subjectId": "uiux",
+    "qId": "uiux-q1",
+    "clip": "question"
+  },
+  {
+    "id": "uiux/uiux-q1/mnemonic",
+    "text": "Have Empathy, Define Ideas, Prototype, Test, Improve, Mind, Build.",
+    "subjectId": "uiux",
+    "qId": "uiux-q1",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "uiux/uiux-q1/idea_human",
+    "text": "Human-centred design. Every choice starts from what real people need. The technology comes second, not first.",
+    "subjectId": "uiux",
+    "qId": "uiux-q1",
+    "clip": "idea_human"
+  },
+  {
+    "id": "uiux/uiux-q1/idea_empathize",
+    "text": "Empathize. Talk to real users and watch them work. You want to feel the pain they feel.",
+    "subjectId": "uiux",
+    "qId": "uiux-q1",
+    "clip": "idea_empathize"
+  },
+  {
+    "id": "uiux/uiux-q1/idea_define",
+    "text": "Define. Write the problem in one clear sentence. Do not jump to feature ideas yet.",
+    "subjectId": "uiux",
+    "qId": "uiux-q1",
+    "clip": "idea_define"
+  },
+  {
+    "id": "uiux/uiux-q1/idea_ideate",
+    "text": "Ideate. Throw out many ideas fast. Do not judge them yet. Quantity first, quality later.",
+    "subjectId": "uiux",
+    "qId": "uiux-q1",
+    "clip": "idea_ideate"
+  },
+  {
+    "id": "uiux/uiux-q1/idea_prototype",
+    "text": "Prototype. Build a cheap, quick model of the best idea so people can touch it and react.",
+    "subjectId": "uiux",
+    "qId": "uiux-q1",
+    "clip": "idea_prototype"
+  },
+  {
+    "id": "uiux/uiux-q1/idea_test",
+    "text": "Test. Hand the model to real users and collect their honest feedback.",
+    "subjectId": "uiux",
+    "qId": "uiux-q1",
+    "clip": "idea_test"
+  },
+  {
+    "id": "uiux/uiux-q1/idea_iterate",
+    "text": "Iterate. Fix it, test again, fix again. Design thinking is a loop, not a straight line.",
+    "subjectId": "uiux",
+    "qId": "uiux-q1",
+    "clip": "idea_iterate"
+  },
+  {
+    "id": "uiux/uiux-q1/idea_mindset",
+    "text": "Mindset. Treat a failed idea as a lesson, not a loss. Stay curious and stay open.",
+    "subjectId": "uiux",
+    "qId": "uiux-q1",
+    "clip": "idea_mindset"
+  },
+  {
+    "id": "uiux/uiux-q1/idea_benefit",
+    "text": "Benefit. You build the right product, spend far less on rework, and users feel happy.",
+    "subjectId": "uiux",
+    "qId": "uiux-q1",
+    "clip": "idea_benefit"
+  },
+  {
+    "id": "uiux/uiux-q2/analogy",
+    "text": "Think of tasting a dish before the party. You do not cook for twenty guests just to find out the recipe is wrong. A prototype is that quick taste test. A rough paper taste tells you the shape is right, and a polished one tells you the real feel.",
+    "subjectId": "uiux",
+    "qId": "uiux-q2",
+    "clip": "analogy"
+  },
+  {
+    "id": "uiux/uiux-q2/definition",
+    "text": "A prototype is an early, testable sample of a product, not the final build. You use it to test ideas with users before spending big money on development.",
+    "subjectId": "uiux",
+    "qId": "uiux-q2",
+    "clip": "definition"
+  },
+  {
+    "id": "uiux/uiux-q2/question",
+    "text": "What is Prototyping? Explain Low Fidelity and High Fidelity.",
+    "subjectId": "uiux",
+    "qId": "uiux-q2",
+    "clip": "question"
+  },
+  {
+    "id": "uiux/uiux-q2/mnemonic",
+    "text": "Prototype Low-fi Rough, High-fi Real, Early, Later, Compare, Example, Saves.",
+    "subjectId": "uiux",
+    "qId": "uiux-q2",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "uiux/uiux-q2/idea_prototype",
+    "text": "Prototype. An early sample of the product that people can already try. It is not the final version.",
+    "subjectId": "uiux",
+    "qId": "uiux-q2",
+    "clip": "idea_prototype"
+  },
+  {
+    "id": "uiux/uiux-q2/idea_lowfi",
+    "text": "Low fidelity (low-fi). The rough version. It is drawn with paper, pencil, sketches and wireframes.",
+    "subjectId": "uiux",
+    "qId": "uiux-q2",
+    "clip": "idea_lowfi"
+  },
+  {
+    "id": "uiux/uiux-q2/idea_rough",
+    "text": "Rough and cheap (low-fi). Low-fi is fast and almost free. No real colours, and the buttons do not really work.",
+    "subjectId": "uiux",
+    "qId": "uiux-q2",
+    "clip": "idea_rough"
+  },
+  {
+    "id": "uiux/uiux-q2/idea_highfi",
+    "text": "High fidelity (high-fi). The polished version. It is built in tools like Figma or Adobe XD, or coded for real.",
+    "subjectId": "uiux",
+    "qId": "uiux-q2",
+    "clip": "idea_highfi"
+  },
+  {
+    "id": "uiux/uiux-q2/idea_real",
+    "text": "Realistic high-fi look. High-fi uses real colours, real fonts, real images and working clicks, just like the finished app.",
+    "subjectId": "uiux",
+    "qId": "uiux-q2",
+    "clip": "idea_real"
+  },
+  {
+    "id": "uiux/uiux-q2/idea_early",
+    "text": "Early low-fi use. Use low-fi at the start. It lets you compare many ideas in one sitting.",
+    "subjectId": "uiux",
+    "qId": "uiux-q2",
+    "clip": "idea_early"
+  },
+  {
+    "id": "uiux/uiux-q2/idea_later",
+    "text": "Later high-fi use. Use high-fi near the end, just before launch, when you need a realistic test.",
+    "subjectId": "uiux",
+    "qId": "uiux-q2",
+    "clip": "idea_later"
+  },
+  {
+    "id": "uiux/uiux-q2/idea_choose",
+    "text": "Choose the fidelity. Pick how detailed the model should be. It depends on your time, your budget and what you must learn.",
+    "subjectId": "uiux",
+    "qId": "uiux-q2",
+    "clip": "idea_choose"
+  },
+  {
+    "id": "uiux/uiux-q2/idea_example",
+    "text": "Example. A paper sketch of a login box is low-fi. A clickable login screen with real colours is high-fi.",
+    "subjectId": "uiux",
+    "qId": "uiux-q2",
+    "clip": "idea_example"
+  },
+  {
+    "id": "uiux/uiux-q2/idea_saves",
+    "text": "Saves time and money. Prototypes find the mistake while it is still cheap. That saves time, cost and a painful rebuild.",
+    "subjectId": "uiux",
+    "qId": "uiux-q2",
+    "clip": "idea_saves"
+  },
+  {
+    "id": "uiux/uiux-q3/analogy",
+    "text": "Think of tidying a room. Put the things you use daily within reach and box away the rest. Line the boxes up and the room suddenly feels calm and easy to use.",
+    "subjectId": "uiux",
+    "qId": "uiux-q3",
+    "clip": "analogy"
+  },
+  {
+    "id": "uiux/uiux-q3/definition",
+    "text": "Design principles are proven rules that make a screen clear, tidy and easy to use. The famous basics are Contrast, Alignment, Proximity and Repetition, plus a few more that support them.",
+    "subjectId": "uiux",
+    "qId": "uiux-q3",
+    "clip": "definition"
+  },
+  {
+    "id": "uiux/uiux-q3/question",
+    "text": "Explain Design Principles in Detail.",
+    "subjectId": "uiux",
+    "qId": "uiux-q3",
+    "clip": "question"
+  },
+  {
+    "id": "uiux/uiux-q3/mnemonic",
+    "text": "Clear Alignment Places Related Headings, Balancing Space, Consistency, Accessibility, Feedback.",
+    "subjectId": "uiux",
+    "qId": "uiux-q3",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "uiux/uiux-q3/idea_contrast",
+    "text": "Contrast. Important things look different. Big headings, bold buttons and bright colours pull the eye first.",
+    "subjectId": "uiux",
+    "qId": "uiux-q3",
+    "clip": "idea_contrast"
+  },
+  {
+    "id": "uiux/uiux-q3/idea_alignment",
+    "text": "Alignment. Everything lines up with something else. Shared edges make a screen feel tidy and ordered.",
+    "subjectId": "uiux",
+    "qId": "uiux-q3",
+    "clip": "idea_alignment"
+  },
+  {
+    "id": "uiux/uiux-q3/idea_proximity",
+    "text": "Proximity. Things that belong together sit close. Things that do not belong are pushed apart.",
+    "subjectId": "uiux",
+    "qId": "uiux-q3",
+    "clip": "idea_proximity"
+  },
+  {
+    "id": "uiux/uiux-q3/idea_repetition",
+    "text": "Repetition. Reuse the same colours, shapes and button styles. The screen then reads as one design.",
+    "subjectId": "uiux",
+    "qId": "uiux-q3",
+    "clip": "idea_repetition"
+  },
+  {
+    "id": "uiux/uiux-q3/idea_hierarchy",
+    "text": "Hierarchy. Visual order tells the eye what to see first, then next, then last. This is priority on screen.",
+    "subjectId": "uiux",
+    "qId": "uiux-q3",
+    "clip": "idea_hierarchy"
+  },
+  {
+    "id": "uiux/uiux-q3/idea_balance",
+    "text": "Balance. Spread the visual weight evenly. No side should feel heavy, crowded or empty.",
+    "subjectId": "uiux",
+    "qId": "uiux-q3",
+    "clip": "idea_balance"
+  },
+  {
+    "id": "uiux/uiux-q3/idea_simplicity",
+    "text": "Simplicity. Remove anything that does not help. Fewer choices means the user can focus on the main task.",
+    "subjectId": "uiux",
+    "qId": "uiux-q3",
+    "clip": "idea_simplicity"
+  },
+  {
+    "id": "uiux/uiux-q3/idea_consistency",
+    "text": "Consistency. Use the same words, icons and actions everywhere in the product. Learning once helps everywhere.",
+    "subjectId": "uiux",
+    "qId": "uiux-q3",
+    "clip": "idea_consistency"
+  },
+  {
+    "id": "uiux/uiux-q3/idea_accessibility",
+    "text": "Accessibility. Readable font sizes and strong colour contrast so old, weak or colour-blind users can also use it.",
+    "subjectId": "uiux",
+    "qId": "uiux-q3",
+    "clip": "idea_accessibility"
+  },
+  {
+    "id": "uiux/uiux-q3/idea_feedback",
+    "text": "Feedback. The screen always answers back. It shows loading, success or an error so the user knows what happened.",
+    "subjectId": "uiux",
+    "qId": "uiux-q3",
+    "clip": "idea_feedback"
+  },
+  {
+    "id": "uiux/uiux-q4/analogy",
+    "text": "Think of ten tips for a shopkeeper. If a customer cannot tell the shop is open, cannot find the exit, and gets no receipt, they will walk out. Nielsen wrote ten such tips for screens.",
+    "subjectId": "uiux",
+    "qId": "uiux-q4",
+    "clip": "analogy"
+  },
+  {
+    "id": "uiux/uiux-q4/definition",
+    "text": "Usability heuristics are Jakob Nielsen's ten thumb rules for judging how easy and friendly an interface is. They are quick checks you can apply to any screen.",
+    "subjectId": "uiux",
+    "qId": "uiux-q4",
+    "clip": "definition"
+  },
+  {
+    "id": "uiux/uiux-q4/question",
+    "text": "What are Usability Heuristics? Explain in Detail.",
+    "subjectId": "uiux",
+    "qId": "uiux-q4",
+    "clip": "question"
+  },
+  {
+    "id": "uiux/uiux-q4/mnemonic",
+    "text": "Very Many Users Can Easily Recognize Friendly Answers, Helping Hands.",
+    "subjectId": "uiux",
+    "qId": "uiux-q4",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "uiux/uiux-q4/idea_status",
+    "text": "Visibility of system status. Always show what the app is doing right now, such as loading, progress or saved.",
+    "subjectId": "uiux",
+    "qId": "uiux-q4",
+    "clip": "idea_status"
+  },
+  {
+    "id": "uiux/uiux-q4/idea_realworld",
+    "text": "Match between system and the real world. Use the words people already know. Say Delete file, not Commit purge, and put options in a logical order.",
+    "subjectId": "uiux",
+    "qId": "uiux-q4",
+    "clip": "idea_realworld"
+  },
+  {
+    "id": "uiux/uiux-q4/idea_control",
+    "text": "User control and freedom. Give the user an exit. Provide undo, redo, cancel and a clear back way out of anything.",
+    "subjectId": "uiux",
+    "qId": "uiux-q4",
+    "clip": "idea_control"
+  },
+  {
+    "id": "uiux/uiux-q4/idea_consistency",
+    "text": "Consistency and standards. Use the same words, icons and actions everywhere, and follow what other well-known apps already do.",
+    "subjectId": "uiux",
+    "qId": "uiux-q4",
+    "clip": "idea_consistency"
+  },
+  {
+    "id": "uiux/uiux-q4/idea_prevention",
+    "text": "Error prevention. Stop mistakes before they happen. Ask for confirmation before deleting, and remove options that invite slips.",
+    "subjectId": "uiux",
+    "qId": "uiux-q4",
+    "clip": "idea_prevention"
+  },
+  {
+    "id": "uiux/uiux-q4/idea_recognition",
+    "text": "Recognition rather than recall. Show the options on the screen. Do not make users remember codes or settings from memory.",
+    "subjectId": "uiux",
+    "qId": "uiux-q4",
+    "clip": "idea_recognition"
+  },
+  {
+    "id": "uiux/uiux-q4/idea_flexibility",
+    "text": "Flexibility and efficiency of use. Shortcuts and accelerators for experts, plus clear guidance for beginners. Both kinds of user are served.",
+    "subjectId": "uiux",
+    "qId": "uiux-q4",
+    "clip": "idea_flexibility"
+  },
+  {
+    "id": "uiux/uiux-q4/idea_minimal",
+    "text": "Aesthetic and minimalist design. Keep only content that helps. Every extra line competes with the message the user needs.",
+    "subjectId": "uiux",
+    "qId": "uiux-q4",
+    "clip": "idea_minimal"
+  },
+  {
+    "id": "uiux/uiux-q4/idea_recover",
+    "text": "Help users recover from errors. Write error messages in plain language. Say what went wrong and exactly how to fix it.",
+    "subjectId": "uiux",
+    "qId": "uiux-q4",
+    "clip": "idea_recover"
+  },
+  {
+    "id": "uiux/uiux-q4/idea_help",
+    "text": "Help and documentation. Offer short, searchable help right where the user is stuck. Long manuals alone are not enough.",
+    "subjectId": "uiux",
+    "qId": "uiux-q4",
+    "clip": "idea_help"
+  },
+  {
+    "id": "uiux/uiux-q5/analogy",
+    "text": "Think of taste-testing a recipe. You do not ask cooks if the food looks nice. You make a stranger cook it, watch where they hesitate, and watch whether they take a second bite.",
+    "subjectId": "uiux",
+    "qId": "uiux-q5",
+    "clip": "analogy"
+  },
+  {
+    "id": "uiux/uiux-q5/definition",
+    "text": "Usability testing means watching real users do real tasks and recording where they get stuck. It measures behaviour, not compliments.",
+    "subjectId": "uiux",
+    "qId": "uiux-q5",
+    "clip": "definition"
+  },
+  {
+    "id": "uiux/uiux-q5/question",
+    "text": "Write a Short Note on Usability Testing Methods.",
+    "subjectId": "uiux",
+    "qId": "uiux-q5",
+    "clip": "question"
+  },
+  {
+    "id": "uiux/uiux-q5/mnemonic",
+    "text": "Utter Thoughts, Moderated, Unmoderated, Remote, Grab Anyone, Find Task Gaps.",
+    "subjectId": "uiux",
+    "qId": "uiux-q5",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "uiux/uiux-q5/idea_testing",
+    "text": "Usability testing. Real people try the design and carry out given tasks. You watch them and note every stumble.",
+    "subjectId": "uiux",
+    "qId": "uiux-q5",
+    "clip": "idea_testing"
+  },
+  {
+    "id": "uiux/uiux-q5/idea_thinkaloud",
+    "text": "Think aloud. Users say their thoughts while working. Their confused sentences show you exactly where the design confused them.",
+    "subjectId": "uiux",
+    "qId": "uiux-q5",
+    "clip": "idea_thinkaloud"
+  },
+  {
+    "id": "uiux/uiux-q5/idea_moderated",
+    "text": "Moderated testing. A facilitator runs the session live, sets tasks and asks follow-up questions.",
+    "subjectId": "uiux",
+    "qId": "uiux-q5",
+    "clip": "idea_moderated"
+  },
+  {
+    "id": "uiux/uiux-q5/idea_unmoderated",
+    "text": "Unmoderated testing. The user tests alone, usually on a tool such as Maze or UserTesting. No one watches in real time.",
+    "subjectId": "uiux",
+    "qId": "uiux-q5",
+    "clip": "idea_unmoderated"
+  },
+  {
+    "id": "uiux/uiux-q5/idea_remote",
+    "text": "Remote testing. The session runs online, so users join from home or another city. Useful when users are far away.",
+    "subjectId": "uiux",
+    "qId": "uiux-q5",
+    "clip": "idea_remote"
+  },
+  {
+    "id": "uiux/uiux-q5/idea_guerrilla",
+    "text": "Guerrilla testing. A quick informal test in a cafe, mall or office lobby with whoever happens to walk by.",
+    "subjectId": "uiux",
+    "qId": "uiux-q5",
+    "clip": "idea_guerrilla"
+  },
+  {
+    "id": "uiux/uiux-q5/idea_ab",
+    "text": "A/B testing. Two versions go live at the same time. Real behaviour decides which one wins, not opinion.",
+    "subjectId": "uiux",
+    "qId": "uiux-q5",
+    "clip": "idea_ab"
+  },
+  {
+    "id": "uiux/uiux-q5/idea_five",
+    "text": "Five users. About five users find close to 85 percent of the major usability problems. So five is often enough for a first round.",
+    "subjectId": "uiux",
+    "qId": "uiux-q5",
+    "clip": "idea_five"
+  },
+  {
+    "id": "uiux/uiux-q5/idea_taskbased",
+    "text": "Task-based testing. Give real tasks like find a hotel or pay a bill. Record success, time taken and errors made.",
+    "subjectId": "uiux",
+    "qId": "uiux-q5",
+    "clip": "idea_taskbased"
+  },
+  {
+    "id": "uiux/uiux-q5/idea_goal",
+    "text": "Goal of usability testing. The goal is to find real problems, not to prove the design is good. Numbers beat compliments.",
+    "subjectId": "uiux",
+    "qId": "uiux-q5",
+    "clip": "idea_goal"
+  },
+  {
+    "id": "uiux/uiux-q6/analogy",
+    "text": "Think of a report card. A score alone tells you nothing. But a score compared with last month tells you whether you are getting better or worse.",
+    "subjectId": "uiux",
+    "qId": "uiux-q6",
+    "clip": "analogy"
+  },
+  {
+    "id": "uiux/uiux-q6/definition",
+    "text": "UX metrics are numbers that show how well people can use a product and how much they enjoy it. They cover usability, engagement, retention, conversion and satisfaction.",
+    "subjectId": "uiux",
+    "qId": "uiux-q6",
+    "clip": "definition"
+  },
+  {
+    "id": "uiux/uiux-q6/question",
+    "text": "Explain UX Metrics in Detail.",
+    "subjectId": "uiux",
+    "qId": "uiux-q6",
+    "clip": "question"
+  },
+  {
+    "id": "uiux/uiux-q6/mnemonic",
+    "text": "Usability, Task, Time, Errors, Satisfaction. See Engagement, Retention, Conversion, Benchmarks.",
+    "subjectId": "uiux",
+    "qId": "uiux-q6",
+    "clip": "mnemonic"
+  },
+  {
+    "id": "uiux/uiux-q6/idea_uxmetrics",
+    "text": "UX metrics. Plain numbers that describe the user experience. This includes usability, engagement, retention, conversion and satisfaction.",
+    "subjectId": "uiux",
+    "qId": "uiux-q6",
+    "clip": "idea_uxmetrics"
+  },
+  {
+    "id": "uiux/uiux-q6/idea_success",
+    "text": "Task success rate. The share of users who finish a task correctly. It matters because a design nobody can finish is useless.",
+    "subjectId": "uiux",
+    "qId": "uiux-q6",
+    "clip": "idea_success"
+  },
+  {
+    "id": "uiux/uiux-q6/idea_time",
+    "text": "Time on task. How long users take to finish. Too much time means the screen is hard to work with.",
+    "subjectId": "uiux",
+    "qId": "uiux-q6",
+    "clip": "idea_time"
+  },
+  {
+    "id": "uiux/uiux-q6/idea_error",
+    "text": "Error rate. How many mistakes users make per task. Fewer errors means the design is easier and safer to use.",
+    "subjectId": "uiux",
+    "qId": "uiux-q6",
+    "clip": "idea_error"
+  },
+  {
+    "id": "uiux/uiux-q6/idea_sus",
+    "text": "SUS (System Usability Scale). A ten question survey scored out of 100. It gives one number for how usable the product feels.",
+    "subjectId": "uiux",
+    "qId": "uiux-q6",
+    "clip": "idea_sus"
+  },
+  {
+    "id": "uiux/uiux-q6/idea_satisfaction",
+    "text": "Satisfaction (CSAT). A quick rating of how happy users feel, usually 1 to 5 right after a task. It predicts loyalty.",
+    "subjectId": "uiux",
+    "qId": "uiux-q6",
+    "clip": "idea_satisfaction"
+  },
+  {
+    "id": "uiux/uiux-q6/idea_engagement",
+    "text": "Engagement. How much people really use the product, such as time spent and features used. It matters because unused features earn nothing.",
+    "subjectId": "uiux",
+    "qId": "uiux-q6",
+    "clip": "idea_engagement"
+  },
+  {
+    "id": "uiux/uiux-q6/idea_retention",
+    "text": "Retention. The share of users who come back again. If people leave after one visit, the product has a real problem.",
+    "subjectId": "uiux",
+    "qId": "uiux-q6",
+    "clip": "idea_retention"
+  },
+  {
+    "id": "uiux/uiux-q6/idea_conversion",
+    "text": "Conversion rate. How many users finish the goal that matters, such as signing up or buying. It is the business payoff of good UX.",
+    "subjectId": "uiux",
+    "qId": "uiux-q6",
+    "clip": "idea_conversion"
+  },
+  {
+    "id": "uiux/uiux-q6/idea_benchmark",
+    "text": "Benchmark. Track the same number across releases and compare it with a target or a rival. One number alone means nothing without a comparison.",
+    "subjectId": "uiux",
+    "qId": "uiux-q6",
+    "clip": "idea_benchmark"
+  },
+  {
+    "id": "ui/exam_intro",
+    "text": "This is a full mock paper. Answer in your own words.",
+    "subjectId": "ui",
+    "qId": "common",
+    "clip": "exam_intro"
+  },
+  {
+    "id": "ui/notebook_intro",
+    "text": "These are your notes, written by you. Read them out loud before the exam.",
+    "subjectId": "ui",
+    "qId": "common",
+    "clip": "notebook_intro"
+  }
+]
