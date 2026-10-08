@@ -3,12 +3,12 @@ node_modules/
 .env
 .DS_Store
 
-# Pre-generated neural voiceovers are large (~30 MB per voice, 120+ MB total)
-# and optional. The app falls back to free browser speech synthesis
-# when mp3s are missing, so they are excluded by default.
-# If you want to share a demo voice, force-add one folder, e.g.:
-#   git add -f public/audio/bf_emma
-public/audio/
+# Pre-generated neural voiceovers are large (~30 MB per voice).
+# Only the Emma demo voice is tracked so users can try audio right away.
+# Other voices stay ignored; the app falls back to browser speech synthesis
+# when mp3s are missing.
+public/audio/*
+!public/audio/bf_emma/
 *.zip
 /content/
 temp_chunk.wav

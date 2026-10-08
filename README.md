@@ -93,10 +93,9 @@ node server.js
 - Get a key at https://openrouter.ai/keys (Pollinations key is optional).
 - Never hardcode keys in `server.js` or commit `.env`.
 
-## Optional: voiceovers (my mp3s are just samples)
+## Optional: voiceovers (Emma demo included)
 
-- My local copy has 4 Kokoro voices under `public/audio/` (~30 MB each). They are **samples** — listen for a first impression, then delete or regenerate.
-- `public/audio/` is in `.gitignore` by default so you don't push 120+ MB / 2000+ mp3s. To share one demo voice: `git add -f public/audio/bf_emma`
+- The repo includes one demo voice, **Emma (British Female, `bf_emma`)** — also the app default — so you can try high-quality audio immediately. Other voices from my local copy are not committed.
 - To regenerate for YOUR content:
   1. `node scripts/export_speech_manifest.js`
   2. Run `scripts/colab_generator.py` in Colab (Kokoro + GPU) — see comments in that file
@@ -110,7 +109,7 @@ server.js                  zero-dep static server + /api/simplify
 public/
   index.html / css/ / js/  app, grader, audio, screens
   data/*.js                <-- EDIT THESE for your notes
-  audio/                   optional mp3s (gitignored)
+  audio/bf_emma/          demo voice mp3s (Emma, default)
 docs/CONTENT-SCHEMA.md     how to write a subject file
 docs/DESIGN.md             why it works this way
 scripts/export_speech_manifest.js  rebuild TTS list from data
@@ -122,18 +121,5 @@ test/                      node:test unit tests
 
 - MIT-licensed (see `LICENSE` — replace author name with yours if you fork).
 - No analytics, no tracking, notes stay in `localStorage` on device.
-- Before pushing: `grep -r "sk-" --exclude-dir=node_modules .` should return nothing; never commit `.env` or `public/audio/` unless you mean to.
+- Before pushing: `grep -r "sk-" --exclude-dir=node_modules .` should return nothing; never commit `.env`.
 - My exam questions / mnemonics may be wrong or outdated for you — verify against your own syllabus.
-
-## Push to GitHub (as I did)
-
-```bash
-git init
-git add README.md .gitignore .env.example server.js package.json public/js public/css public/data docs scripts test public/index.html
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/rishibanota/Study-Helper.git
-git push -u origin main
-```
-
-(Adjust the `git add` list — the default `git add .` also works but will skip everything in `.gitignore`, which is what you want.)
